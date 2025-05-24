@@ -1,0 +1,53 @@
+{
+  "project": {
+    "name": "Wellspring Book Project",
+    "version": "1.0.0",
+    "description": "AI-assisted editing and production system for The Wellspring Manual",
+    "type": "book_publishing_workflow"
+  },
+  "agents": {
+    "em_dash_replacement": {
+      "purpose": "Replace all em dashes with contextually appropriate punctuation",
+      "priority": "high",
+      "input_dir": "em_dash_replacement/input",
+      "output_dir": "em_dash_replacement/output",
+      "status": "ready"
+    },
+    "deep_research_agent": {
+      "purpose": "Quote verification, content research, fact-checking",
+      "priority": "medium", 
+      "output_dir": "deep_research_agent/reports",
+      "status": "ready"
+    }
+  },
+  "book_specs": {
+    "title": "The Wellspring Manual",
+    "subtitle": "Best practices for rapid delivery of behavioral health continuum infrastructure",
+    "author": "Brian V Jones",
+    "publish_date": "November 1, 2024",
+    "page_count": "300+",
+    "indesign_files": [
+      "docs/The Wellspring.indd",
+      "docs/The-Wellspring-Book.indd"
+    ]
+  },
+  "mcpServers": {
+    "context7": {
+      "activation": "use context7",
+      "status": "pending_install"
+    },
+    "gitmcp": {
+      "url": "https://gitmcp.io/your-username/wellspring_directory",
+      "status": "pending_setup"
+    }
+  },
+  "workflow": {
+    "current_phase": "editing_and_formatting",
+    "next_tasks": [
+      "em_dash_replacement_analysis",
+      "typography_standardization", 
+      "infographic_placement",
+      "quote_verification"
+    ]
+  }
+}

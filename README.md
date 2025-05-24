@@ -1,76 +1,77 @@
-# README.md
+# The Wellspring Manual - AI-Assisted Book Production
 
-# Wellspring Project Repository
+**The definitive guide for behavioral health facility development**  
+*By Brian V Jones, November 1, 2024*
 
-Welcome to the Wellspring Project! This repository is the central hub for all
-code, documentation, and automation scripts related to our dual-platform
-initiative: the Wellspring Educational Platform and the Real Estate Project
-Management Tool. At the heart of this project lies the Wellspring Manual, a
-definitive source of truth for all instructional, procedural, and visual
-standards.
+This repository contains the complete AI-assisted editing and production workflow for **The Wellspring Manual**, a comprehensive 300+ page guide covering best practices for rapid delivery of behavioral health continuum infrastructure.
 
-## Project Overview
+## 🎯 Project Status
 
-The Wellspring Project is composed of three primary components:
+**Current Phase**: Active editing and formatting  
+**Primary Tasks**: Em dash replacement, typography standardization, content enhancement  
+**InDesign Files**: Ready for processing (104MB complete manuscript)  
+**AI Agents**: Configured and operational
 
-1. **Wellspring Manual**
-   - A formatted print and layout project that serves as the source of truth for
-     branding, typography, layout standards, and instructional content.
-2. **Educational Platform**
-   - A subscription-based online portal offering structured courses, community
-     engagement, and expert advisory for behavioral health facility developers.
-3. **Project Management Tool**
-   - A cloud-based toolset that integrates FreshBooks, Google Workspace, and AI
-     agent workflows to manage compliance, scheduling, billing, and document
-     tracking for client projects.
+## 🤖 AI Agent System
 
-## Repository Structure
+This project uses specialized AI agents to automate complex editorial tasks:
+
+### 📝 Em Dash Replacement Agent
+**Priority: HIGH** | **Status: Ready**
+- Analyzes 300+ pages for em dash usage patterns
+- Creates context-based replacement database
+- Implements proper punctuation throughout manuscript
+- **Location**: `em_dash_replacement/`
+
+### 🔍 Deep Research Agent  
+**Priority: MEDIUM** | **Status: Ready**
+- Verifies quote relevance to chapters
+- Fact-checks statistical claims and data
+- Identifies visual opportunities for infographics
+- **Location**: `deep_research_agent/`
+
+### 🛠️ Shared Utilities
+- UV Python environment with data science packages
+- Jupyter notebooks for analysis
+- Common tools and processing scripts
+- **Location**: `shared_utils/`
+
+## 📂 Repository Structure
 
 ```
-.wellspring_repository/
-├── .cursor/
-│   ├── rules/
-│   ├── tasks/
-│   └── agents/
-├── docs/
-│   ├── .env
-│   └── setup.md
-├── icons/
-├── config.json
-└── README.md
+wellspring_directory/
+├── .cursor/                    # AI agent configurations
+├── docs/                       # InDesign files & documentation
+│   ├── The-Wellspring-Book.indd  # Main manuscript (104MB)
+│   ├── .env                       # API keys & configuration
+│   └── Wellspring Manuscript Editing Meeting_otter_ai/
+├── em_dash_replacement/        # Primary editing agent
+├── deep_research_agent/        # Research & verification
+├── shared_utils/              # Common utilities & UV environment
+├── icons/                     # Brand assets & design elements
+└── config.json              # Project configuration
 ```
 
-## Setup Instructions
+## 🚀 Quick Start
 
-### Step 1: Initialize MCP Servers
+### 1. Environment Setup
+The project is pre-configured with all necessary API keys in `docs/.env`:
+- **Claude (Anthropic)**: Primary AI editing
+- **Perplexity**: Research capabilities  
+- **OpenAI**: Backup AI support
+- **Supabase**: Project data management
 
-- **Context7** : Install and activate using:
-
+### 2. Activate Python Environment
 ```bash
-npx -y @upstash/context7-mcp
+cd shared_utils/uv_env
+source .venv/bin/activate
 ```
 
-Then add** **`'use context7'` in relevant scripts.
-
-- **gitmcp** : Transform your GitHub repo by prepending its URL with:
-
-```text
-https://gitmcp.io/your-username/your-repo
-```
-
-### Step 2: Update** **`config.json`
-
-```json
-{
-    "mcpServers": {
-        "context7": {
-            "activation": "use context7"
-        },
-        "gitmcp": {
-            "url": "https://gitmcp.io/your-username/your-repo"
-        }
-    }
-}
+### 3. Run Primary Editing Task
+Start with the most critical task - em dash replacement:
+```bash
+cd em_dash_replacement/scripts
+# Agent scripts will be implemented here
 ```
 
 ### Step 3: Create** **`.cursor` Directory Structure
