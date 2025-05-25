@@ -1,5 +1,20 @@
 {
   "mcpServers": {
+    "github.com/makenotion/notion-mcp-server": {
+      "command": "npx",
+      "args": ["-y", "@notionhq/notion-mcp-server"],
+      "env": {
+        "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer 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\", \"Notion-Version\": \"2022-06-28\" }"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "github.com/upstash/context7-mcp": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "disabled": false,
+      "autoApprove": []
+    },
     "filesystem": {
       "command": "npx",
       "args": [
@@ -74,6 +89,9 @@
       "env": {
         "EXA_API_KEY": "YOUR_EXA_API_KEY"
       }
+    },
+    "adk-docs Docs": {
+      "url": "https://gitmcp.io/google.github.io/adk-docs/"
     }
   }
 }

@@ -1,7 +1,146 @@
 [project]
-name = "wellspring-directory"
-version = "0.1.0"
-description = "Add your description here"
+name = "wellspring-book-production"
+version = "1.0.0"
+description = "AI-assisted book production system for The Wellspring Manual - comprehensive em dash replacement, typography correction, and deep research capabilities"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Brian V Jones", email = "contact@bhsme.org"},
+    {name = "BHSME Team", email = "team@bhsme.org"},
+]
+keywords = ["book-production", "ai-agents", "typography", "research", "publishing", "behavioral-health"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    # Data processing and analysis
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    
+    # Web requests and API calls
+    "requests>=2.28.0",
+    "httpx>=0.24.0",
+    
+    # CLI and utilities
+    "rich>=13.0.0",
+    "click>=8.0.0",
+    
+    # Configuration and environment
+    "python-dotenv>=1.0.0",
+    
+    # Date and time handling
+    "python-dateutil>=2.8.0",
+    
+    # Document processing
+    "openpyxl>=3.1.0",
+]
+
+[project.optional-dependencies]
+# Development dependencies
+dev = [
+    "black>=23.0.0",
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+# AI and ML dependencies for future enhancements
+ai = [
+    "openai>=1.0.0",
+    "anthropic>=0.5.0",
+]
+
+# Web scraping and research
+research = [
+    "beautifulsoup4>=4.12.0",
+    "selenium>=4.8.0",
+]
+
+# Full installation with all features
+full = [
+    "wellspring-book-production[dev,ai,research]"
+]
+
+[project.urls]
+Homepage = "https://github.com/bhsme/wellspring-book-production"
+Repository = "https://github.com/bhsme/wellspring-book-production"
+"Bug Tracker" = "https://github.com/bhsme/wellspring-book-production/issues"
+
+[project.scripts]
+wellspring = "wellspring_cli:main"
+
+[build-system]
+requires = ["hatchling>=1.13.0"]
+build-backend = "hatchling.build"
+
+# Package discovery for Hatch (the build backend)
+[tool.hatch.build.targets.wheel]
+packages = ["wellspring_directory"]
+
+# Alternative: Explicitly tell hatch where to find packages
+[tool.hatch.build.targets.wheel.sources]
+"wellspring_directory" = "wellspring_directory"
+"em_dash_replacement" = "wellspring_directory/em_dash_replacement"
+"deep_research_agent" = "wellspring_directory/deep_research_agent"
+"google_adk_agents" = "wellspring_directory/google_adk_agents"
+"shared_utils" = "wellspring_directory/shared_utils"
+"docs" = "wellspring_directory/docs"
+"rules" = "wellspring_directory/rules"
+
+# UV-specific configuration
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0"
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py39', 'py310', 'py311', 'py312']
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = ["-ra", "--strict-markers"]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+# Wellspring-specific configuration
+[tool.wellspring]
+# Book metadata
+book_title = "The Wellspring Manual"
+book_subtitle = "Best practices for rapid delivery of behavioral health continuum infrastructure"
+author_name = "Brian V Jones"
+author_organization = "BHSME - Behavioral Health Subject Matter Experts"
+publication_date = "November 1, 2024"
+target_page_count = 300
+
+# System settings
+default_confidence_threshold = 0.8
+default_dry_run = true
+max_parallel_agents = 5
+agent_timeout_seconds = 900
+logging_level = "INFO"
+
+# Typography settings
+em_dash_replacement_mode = "contextual"
+margin_increase_points = 3
+header_color_scheme = "blue_gold"
+font_size_reduction_toc = 2
+enable_architectural_corners = true
+
+# Research settings
+citation_verification_enabled = true
+deep_research_max_sources = 10
+fact_check_confidence_threshold = 0.8
+quote_relevance_threshold = 0.7
+visual_opportunities_enabled = true

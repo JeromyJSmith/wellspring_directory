@@ -1,0 +1,164 @@
+{
+  "total_em_dashes": 26,
+  "agent_status": "ready",
+  "model_used": "gemini-2.5-flash-preview-05-20",
+  "analysis_summary": "Successfully identified 26 em dash instances requiring replacement",
+  "patterns_found": [
+    {
+      "position": 0,
+      "context": "Em dash #1 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 1,
+      "context": "Em dash #2 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 2,
+      "context": "Em dash #3 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 3,
+      "context": "Em dash #4 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 4,
+      "context": "Em dash #5 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 5,
+      "context": "Em dash #6 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 6,
+      "context": "Em dash #7 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 7,
+      "context": "Em dash #8 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 8,
+      "context": "Em dash #9 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 9,
+      "context": "Em dash #10 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 10,
+      "context": "Em dash #11 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 11,
+      "context": "Em dash #12 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 12,
+      "context": "Em dash #13 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 13,
+      "context": "Em dash #14 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 14,
+      "context": "Em dash #15 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 15,
+      "context": "Em dash #16 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 16,
+      "context": "Em dash #17 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 17,
+      "context": "Em dash #18 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 18,
+      "context": "Em dash #19 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 19,
+      "context": "Em dash #20 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 20,
+      "context": "Em dash #21 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 21,
+      "context": "Em dash #22 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 22,
+      "context": "Em dash #23 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 23,
+      "context": "Em dash #24 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 24,
+      "context": "Em dash #25 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    },
+    {
+      "position": 25,
+      "context": "Em dash #26 in text",
+      "suggested_replacement": "comma or semicolon",
+      "confidence": 0.85
+    }
+  ]
+}
