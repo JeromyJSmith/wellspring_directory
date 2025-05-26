@@ -1,0 +1,1454 @@
+WELLSPRING EM DASH REPLACEMENT SUMMARY
+==================================================
+
+Session ID: comprehensive_processing_20250524_195718
+Timestamp: 2025-05-24T19:57:24.231782
+Model: gemini-2.5-flash-preview-05-20
+
+PROCESSING RESULTS:
+• Input File: ../em_dash_replacement/output/extracted_wellspring_manual_wellspring_book_processing_20250524_195718.txt
+• Output File: ../em_dash_replacement/output/processed_extracted_wellspring_manual_wellspring_book_processing_20250524_195718.txt
+• Backup File: ../em_dash_replacement/output/extracted_wellspring_manual_wellspring_book_processing_20250524_195718_backup_20250524_195724.txt
+• Processing Time: 0.19 seconds
+
+STATISTICS:
+• Total Em Dashes Found: 357
+• Replacements Made: 357
+• Remaining Em Dashes: 0
+• Success Rate: 100.0%
+
+REPLACEMENT BREAKDOWN:
+• ,: 167 instances
+• :: 61 instances
+• ;: 129 instances
+
+DETAILED CHANGES:
+--------------------
+ 1. Line 2755: than checking a box—it’s → than checking a box, it’s
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+ 2. Line 6498: the best interest.”— → the best interest.”, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+ 3. Line 574: : Each facility type—whether → : Each facility type, whether
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+ 4. Line 6535: dvisor is the anchor— → dvisor is the anchor, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+ 5. Line 1537: ot with construction—but with → ot with construction, but with
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+ 6. Line 1708: logistical necessity—it is a strategic → logistical necessity: it is a strategic
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+ 7. Line 5758: project’s viability—with- → project’s viability, with-
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+ 8. Line 6196: operate as one team—with → operate as one team, with
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+ 9. Line 3901: , wood, woven panels—to → , wood, woven panels, to
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+10. Line 1485: d strategic planning—achieve: → d strategic planning, achieve:
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+11. Line 3522: erational efficiency—it is about cre- → erational efficiency: it is about cre-
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+12. Line 7497: is work in gratitude—to everyone working → is work in gratitude; to everyone working
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+13. Line 3978: between disciplines—especially mechan- → between disciplines; especially mechan-
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+14. Line 1442: atter experts (SMEs)—including → atter experts (SMEs), including
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+15. Line 6781: serve as translators—aligning field → serve as translators; aligning field
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+16. Line 784: ly for today’s needs—but for tomorrow’s → ly for today’s needs, but for tomorrow’s
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+17. Line 3861: nmental risk factors—wildfire, flooding, → nmental risk factors; wildfire, flooding,
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+18. Line 3871: of biophilic design—small plant clusters → of biophilic design; small plant clusters
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+19. Line 2405: egin with blueprints— → egin with blueprints, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+20. Line 7403: nd community members—working together. → nd community members; working together.
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+21. Line 939: is indispensable.”— → is indispensable.”, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+22. Line 3043: cipatory development—achieving faster app → cipatory development; achieving faster app
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+23. Line 2229: adding a team member—it means securing a → adding a team member: it means securing a
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+24. Line 7402: s take a team effort—governments, healthc → s take a team effort; governments, healthc
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+25. Line 5086: ltidisciplinary unit—where every partner, → ltidisciplinary unit; where every partner,
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+26. Line 378: an art and a science—and it de- → an art and a science, and it de-
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+27. Line 1484: ect delivery methods—both of which rely o → ect delivery methods; both of which rely o
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+28. Line 2641: course-correct early—when → course-correct early, when
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+29. Line 6602: get what you deserve—you get what you → get what you deserve; you get what you
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+30. Line 6660: ured gets managed.”—Peter Drucker → ured gets managed.”; Peter Drucker
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+31. Line 719: longer aspirational—it is foundational t → longer aspirational: it is foundational t
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+32. Line 3901: Use layered textures—stone, wood, woven p → Use layered textures; stone, wood, woven p
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+33. Line 6197: iscipline, and heart—they do more than bu → iscipline, and heart: they do more than bu
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+34. Line 4101: vert abstract values—safety, → vert abstract values, safety,
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+35. Line 5650: gainst retical ideal—it is a real, achiev → gainst retical ideal: it is a real, achiev
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+36. Line 7152: perform as designed—especially in enviro → perform as designed; especially in enviro
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+37. Line 6163: ds profession- phase—from predevelopment → ds profession- phase; from predevelopment
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+38. Line 368: of the Owner’s dows—it is a sanctuary. A → of the Owner’s dows: it is a sanctuary. A
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+39. Line 6185: ed DHCS to the “why”—the urgent mental he → ed DHCS to the “why”, the urgent mental he
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+40. Line 781: ust open their doors— → ust open their doors, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+41. Line 1539: rce in this or- hope—but with preparation → rce in this or- hope, but with preparation
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+42. Line 3872: ves, or window views—throughout the → ves, or window views; throughout the
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+43. Line 3348: estones in a project—they are the soul-se → estones in a project: they are the soul-se
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+44. Line 6204: ndividual brilliance— → ndividual brilliance, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+45. Line 4395: llow-ups in doing.”—Warren Buffett → llow-ups in doing.”; Warren Buffett
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+46. Line 224: uild not just faster—but → uild not just faster, but
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+47. Line 484: uild not just faster—but → uild not just faster, but
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+48. Line 7384: ovals • Listen first—communities are not → ovals • Listen first: communities are not
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+49. Line 1585: ntability structures—that → ntability structures, that
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+50. Line 5628: nting best practices— → nting best practices, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+51. Line 7123: oning and activation— → oning and activation, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+52. Line 1677: e and the fine print—• Lead architectura → e and the fine print; • Lead architectura
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+53. Line 2069: h design progression—post-occupancy perf → h design progression; post-occupancy perf
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+54. Line 6003: from diverse fields—• Keeping the team → from diverse fields; • Keeping the team
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+55. Line 7155: e end of the project—security systems, H → e end of the project; security systems, H
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+56. Line 7426: alth, mobile crisis—Jane Stanford → alth, mobile crisis; Jane Stanford
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+57. Line 396: hether you’re: lenge—with courage, creati → hether you’re: lenge; with courage, creati
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+58. Line 467: behind the projects—to → behind the projects, to
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+59. Line 4407: But what you do know— → But what you do know, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+60. Line 5718: hly specialized team— → hly specialized team, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+61. Line 5732: the Owner’s Advisor—• Stakeholder Coord → the Owner’s Advisor; • Stakeholder Coord
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+62. Line 6713: m planning to action— → m planning to action, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+63. Line 627: ds, and service gaps— → ds, and service gaps, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+64. Line 2854: are working together—ev- → are working together, ev-
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+65. Line 5151: facility activation—re- → facility activation, re-
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+66. Line 478: need more buildings—we → need more buildings, we
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+67. Line 2407: rastructure of trust—and that starts with → rastructure of trust, and that starts with
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+68. Line 2414: elivering a building—it’s → elivering a building, it’s
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+69. Line 3595: not only to function—but → not only to function, but
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+70. Line 5199: more than a business—it → more than a business, it
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+71. Line 6481: external consultant—• Phased Constructi → external consultant; • Phased Constructi
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+72. Line 568: intersecting forces—clin- → intersecting forces, clin-
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+73. Line 1445: utility consultants— → utility consultants, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+74. Line 1969: not only well-built—but deep- → not only well-built, but deep-
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+75. Line 4176: rooted in leadership—by ex- Health Design → rooted in leadership; by ex- Health Design
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+76. Line 6551: e is to create it.”— → e is to create it.”, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+77. Line 520: cially in California—men- → cially in California, men-
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+78. Line 724: e pillars of success—strategic → e pillars of success, strategic
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+79. Line 889: l estate transaction—it’s a clini- → l estate transaction; it’s a clini-
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+80. Line 3099: rs to peer advocates—every → rs to peer advocates, every
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+81. Line 3110: t is not a line item—it is → t is not a line item: it is
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+82. Line 3338: and solar PV arrays—quali- → and solar PV arrays, quali-
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+83. Line 3368: patients themselves— → patients themselves, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+84. Line 5992: ule lies in teamwork—bring- → ule lies in teamwork, bring-
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+85. Line 6205: not just real estate—but → not just real estate, but
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+86. Line 3102: not just a formality—it is a → not just a formality: it is a
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+87. Line 3952: ter they shape us.”— → ter they shape us.”, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+88. Line 4219: ter they shape us.”— → ter they shape us.”, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+89. Line 5687: delivered in months—and → delivered in months, and
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+90. Line 5691: to meet this moment—and → to meet this moment, and
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+91. Line 7449: rovider, or advocate—what you → rovider, or advocate, what you
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+92. Line 361: n project management—they odology, and a → n project management: they odology, and a
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+93. Line 423: a peripheral concern—it is → a peripheral concern: it is
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+94. Line 791: elivery models like—Margaret J. Wheatle → elivery models like; Margaret J. Wheatle
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+95. Line 2602: th a successful site—and → th a successful site, and
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+96. Line 2709: ddressed proactively—and in → ddressed proactively, and in
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+97. Line 5096: oss all team members— → oss all team members, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+98. Line 6149: ly a project manager— → ly a project manager, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+99. Line 311: e of clinical intent—it is one of → e of clinical intent: it is one of
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+100. Line 639: -sector partnerships— → -sector partnerships, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+101. Line 1729: strategic right hand—deeply embedded in e → strategic right hand; deeply embedded in e
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+102. Line 1992: administrative task—it is the → administrative task: it is the
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+103. Line 2826: acility win approval—it now → acility win approval: it now
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+104. Line 6472: l health development—can → l health development, can
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+105. Line 2731: is not just helpful—it is essen- → is not just helpful: it is essen-
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+106. Line 1453: tailed due diligence— → tailed due diligence, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+107. Line 2710: nced Owner’s Advisor—the result → nced Owner’s Advisor, the result
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+108. Line 2821: sed on real feedback—adding → sed on real feedback, adding
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+109. Line 7442: grounded in service—to people, → grounded in service, to people,
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+110. Line 7443: statement of belief—that healing is → statement of belief, that healing is
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+111. Line 309: nd workforce burnout—all while → nd workforce burnout, all while
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+112. Line 2716: we dream of tomorrow—safe, dig- → we dream of tomorrow, safe, dig-
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+113. Line 3505: ing Owner’s Advisors—helps → ing Owner’s Advisors, helps
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+114. Line 3621: Through Design forms—to promote psycholog → Through Design forms; to promote psycholog
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+115. Line 4195: nce within the space—for patients struggl → nce within the space; for patients struggl
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+116. Line 5206: cy. Some leave scars—built in → cy. Some leave scars, built in
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+117. Line 5532: on is adaptive reuse—the acquisition and → on is adaptive reuse, the acquisition and
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+118. Line 2511: and telecom capacity—or • Drop-off zones → and telecom capacity; or • Drop-off zones
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+119. Line 2792: tion of stakeholders—clinicians, → tion of stakeholders; clinicians,
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+120. Line 4275: planning to fail.”—Benjamin → planning to fail.”, Benjamin
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+121. Line 7219: a technical exercise—it’s a strategic ori → a technical exercise; it’s a strategic ori
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+122. Line 7480: t trees, and gardens—a life that mirrors → t trees, and gardens, a life that mirrors
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+123. Line 1878: peed and flexibility—the contracting → peed and flexibility, the contracting
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+124. Line 4244: navigate permitting—they master it. Poli → navigate permitting: they master it. Poli
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+125. Line 6229: ned it, and built it—every consultant, → ned it, and built it; every consultant,
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+126. Line 246: a set of guidelines—it is a field-test- → a set of guidelines: it is a field-test-
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+127. Line 431: more than buildings—we can build → more than buildings; we can build
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+128. Line 2493: ox-checking exercise—it is a strategic → ox-checking exercise: it is a strategic
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+129. Line 3172: at every stakeholder—patients, provid- → at every stakeholder; patients, provid-
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+130. Line 3504: meet basic standards—it directly con- → meet basic standards: it directly con-
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+131. Line 5166: is heard and valued—including → is heard and valued, including
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+132. Line 5271: erutilized buildings—such as schools, → erutilized buildings; such as schools,
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+133. Line 6601: t about cutting cost—it’s about → t about cutting cost, it’s about
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+134. Line 433: ponse to this crisis—and a proactive → ponse to this crisis, and a proactive
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+135. Line 2741: barrier to progress— → barrier to progress, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+136. Line 4328: st more than capital—they damage → st more than capital: they damage
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+137. Line 6589: lnerable populations—this stage is not → lnerable populations: this stage is not
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+138. Line 7508: is not just a sector—it’s a movement. → is not just a sector; it’s a movement.
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+139. Line 1166: case for—or against—moving forward. → case for—or against; moving forward.
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+140. Line 3120: n’t a “nice to have”—it is a core require → n’t a “nice to have”: it is a core require
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+141. Line 6213: ember is the team.”—Phil → ember is the team.”, Phil
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+142. Line 6746: vision meets reality—and where leader- → vision meets reality, and where leader-
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+143. Line 7068: is more than a date—it is an operational → is more than a date: it is an operational
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+144. Line 7497: ple working together—listening, adapt- Br → ple working together; listening, adapt- Br
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+145. Line 336: advisory leadership—can reduce total → advisory leadership; can reduce total
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+146. Line 1001: d further complexity—failure to perform → d further complexity; failure to perform
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+147. Line 2227: s not a support role—it is a strategic → s not a support role: it is a strategic
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+148. Line 4210: tful design decision—every window → tful design decision; every window
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+149. Line 4467: nd operational needs—all while re- → nd operational needs; all while re-
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+150. Line 6736: act, but a habit.”— → act, but a habit.”, 
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+151. Line 6767: isn’t just insurance—it’s a → isn’t just insurance, it’s a
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+152. Line 7119: s not just a liaison—they are the last • → s not just a liaison: they are the last •
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+153. Line 280: d across the country—the need for → d across the country, the need for
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+154. Line 307: ing something better—and building it now. → ing something better, and building it now.
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+155. Line 1244: the prepared mind.”—Louis and financial → the prepared mind.”; Louis and financial
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+156. Line 1503: the prepared mind.”—Louis Pasteur → the prepared mind.”; Louis Pasteur
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+157. Line 2842: is not just a tactic—it’s a philosophy. → is not just a tactic; it’s a philosophy.
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+158. Line 3599: ople who enter it.”—Dr. Eve → ople who enter it.”, Dr. Eve
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+159. Line 5114: lead—not just serve—within their → lead—not just serve; within their
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+160. Line 7428: story of one person—it’s a reflection of → story of one person; it’s a reflection of
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+161. Line 7493: blueprint from above—it’s a shared resour → blueprint from above; it’s a shared resour
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+162. Line 262: t to guide your work—from early feasibili → t to guide your work; from early feasibili
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+163. Line 1553: not just a schedule—but an entire missio → not just a schedule, but an entire missio
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+164. Line 3569: f an Owner’s Advisor—paired with health- → f an Owner’s Advisor; paired with health-
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+165. Line 5192: tand these realities—and they build the → tand these realities, and they build the
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+166. Line 759: licensing checklists—it’s about hope. It’ → licensing checklists; it’s about hope. It’
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+167. Line 4278: se in your charge.”—Simon → se in your charge.”, Simon
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+168. Line 7318: r in this transition—overseeing closeout → r in this transition; overseeing closeout
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+169. Line 1512: rmined not by chance—but by preparation, → rmined not by chance, but by preparation,
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+170. Line 316: rn from that tension—and from the immense → rn from that tension, and from the immense
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+171. Line 2007: isor is not a luxury—it’s the → isor is not a luxury, it’s the
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+172. Line 2661: s is not a checklist—it’s the expertise o → s is not a checklist; it’s the expertise o
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+173. Line 6221: just an HR function—it’s a strategic act → just an HR function; it’s a strategic act
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+174. Line 6932: ering square footage—it’s about building → ering square footage; it’s about building
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+175. Line 907: rocesses vary widely—some require → rocesses vary widely; some require
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+176. Line 2612: . When executed well—with foresight, rigo → . When executed well; with foresight, rigo
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+177. Line 7322: ollow best practices—like early stakehold → ollow best practices; like early stakehold
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+178. Line 293: designed decades ago—institutions with cr → designed decades ago; institutions with cr
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+179. Line 490: ed across California—from city centers to → ed across California; from city centers to
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+180. Line 1543: ng, and construction—to create harmony be → ng, and construction; to create harmony be
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+181. Line 4186: vates the overlooked—that is the legacy o → vates the overlooked, that is the legacy o
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+182. Line 5193: e foundation is here—in teamwork, experti → e foundation is here; in teamwork, experti
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+183. Line 575: esidential, or detox—requires licensure f → esidential, or detox; requires licensure f
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+184. Line 2765: erial isn’t concrete—it’s connection. → erial isn’t concrete; it’s connection.
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+185. Line 3541: foundational pillars—The Big 5 Best Pract → foundational pillars, The Big 5 Best Pract
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+186. Line 455: out to write a book—I set out to help re → out to write a book; I set out to help re
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+187. Line 4459: st bricks and mortar—it demands a careful → st bricks and mortar: it demands a careful
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+188. Line 7128: not simply occupancy—it is operational ex → not simply occupancy: it is operational ex
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+189. Line 1166: on builds a case for—or against—moving fo → on builds a case for; or against—moving fo
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+190. Line 2021: the Owner’s Advisor—a seasoned subject m → the Owner’s Advisor, a seasoned subject m
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+191. Line 5180: not just a building—but a sanctuary for → not just a building, but a sanctuary for
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+192. Line 253: ith a resounding yes—if we follow best pr → ith a resounding yes; if we follow best pr
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+193. Line 1159: reliminary formality—it is the essential → reliminary formality: it is the essential
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+194. Line 1249: reliminary formality—it is the essential → reliminary formality: it is the essential
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+195. Line 1498: ation isn’t reactive—it’s a discipline of → ation isn’t reactive; it’s a discipline of
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+196. Line 2453: n with a wide funnel—identifying numerous → n with a wide funnel; identifying numerous
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+197. Line 5851: ffects mental health—improper design can → ffects mental health; improper design can
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+198. Line 6972: ntdown to completion—it is the time when → ntdown to completion: it is the time when
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+199. Line 7105: h the end in mind.”—Stephen R. → h the end in mind.”, Stephen R.
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+200. Line 579: most urgently needed—whether residential → most urgently needed; whether residential
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+201. Line 2597: not rare edge cases—they are predictable → not rare edge cases: they are predictable
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+202. Line 6174: sical infrastructure—not the other way ar → sical infrastructure, not the other way ar
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+203. Line 7054: e punchlisting early—by building zone or → e punchlisting early; by building zone or
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+204. Line 1743: just executing tasks—they are shaping env → just executing tasks: they are shaping env
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+205. Line 2717: healing, sustainable—must be born from th → healing, sustainable; must be born from th
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+206. Line 3174: ders, and regulators—is engaged in shapin → ders, and regulators; is engaged in shapin
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+207. Line 6588: health developments—where every dollar m → health developments; where every dollar m
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+208. Line 7175: ’t close the project—you launch the back → ’t close the project; you launch the back
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+209. Line 369: is not just helpful—it is indispensable. → is not just helpful: it is indispensable.
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+210. Line 2309: anning and execution—from early feasibili → anning and execution; from early feasibili
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+211. Line 3571: ecialized architects—ensures that every d → ecialized architects; ensures that every d
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+212. Line 4212: instead of startles—is a powerful step t → instead of startles; is a powerful step t
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+213. Line 4507: ovation. key results—from early visioning → ovation. key results; from early visioning
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+214. Line 939: ing where it went.”—Dave Ramsey are use → ing where it went.”; Dave Ramsey are use
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+215. Line 1538: y. Not with drawings—but with decisions. → y. Not with drawings, but with decisions.
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+216. Line 3620: ate natural elements—light, greenery, and → ate natural elements; light, greenery, and
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+217. Line 5118: the result of chance—it is the result of → the result of chance: it is the result of
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+218. Line 6962: y and consistency.”—Anonymous → y and consistency.”, Anonymous
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+219. Line 7376: d a long-term budget—not just for constru → d a long-term budget, not just for constru
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+220. Line 560: n is how it works.”—Steve Jobs → n is how it works.”, Steve Jobs
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+221. Line 605: val delays, or worse—non-licensable facil → val delays, or worse; non-licensable facil
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+222. Line 886: xt, and community.”—Anonymous → xt, and community.”, Anonymous
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+223. Line 1541: diverse disciplines—architecture, financ → diverse disciplines; architecture, financ
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+224. Line 2419: nce is not just math—it’s mission in numb → nce is not just math; it’s mission in numb
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+225. Line 3095: egies than a project—it becomes a legacy. → egies than a project: it becomes a legacy.
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+226. Line 3434: r, and—if done right—a source of hope.” → r, and—if done right, a source of hope.”
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+227. Line 5114: ower experts to lead—not just serve—withi → ower experts to lead, not just serve—withi
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+228. Line 520: ss the United States—and especially in Ca → ss the United States, and especially in Ca
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+229. Line 2694: ’t theoretical gains—they are the differe → ’t theoretical gains: they are the differe
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+230. Line 2852: eholders are aligned—when neighborhoods f → eholders are aligned; when neighborhoods f
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+231. Line 3407: ure for its own sake—it is about outcomes → ure for its own sake: it is about outcomes
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+232. Line 6470: oned Owner’s Advisor—a specialist who und → oned Owner’s Advisor, a specialist who und
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+233. Line 470: s work changes lives—not just for patient → s work changes lives, not just for patient
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+234. Line 2252: facility activation—guiding every step f → facility activation; guiding every step f
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+235. Line 3366: ces from every level—clinicians, frontlin → ces from every level; clinicians, frontlin
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+236. Line 3549: ign for adaptability—program spaces to ev → ign for adaptability; program spaces to ev
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+237. Line 6706: arity is kindness.”—Brené Brown → arity is kindness.”; Brené Brown
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+238. Line 986: t simply a checklist—it is a high-stakes, → t simply a checklist: it is a high-stakes,
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+239. Line 3428: is design foundation—exploring how progra → is design foundation; exploring how progra
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+240. Line 5273: rehouses, or offices—that can be repurpos → rehouses, or offices, that can be repurpos
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+241. Line 6219: s downstream impacts—on care delivery, pa → s downstream impacts; on care delivery, pa
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+242. Line 7004: anges are inevitable—but must be tightly → anges are inevitable, but must be tightly
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+243. Line 2651: he impact is minimal—instead of during co → he impact is minimal; instead of during co
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+244. Line 4167: liance or aesthetics—it’s about performan → liance or aesthetics; it’s about performan
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+245. Line 6409: nforeseen challenges—from material shorta → nforeseen challenges; from material shorta
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+246. Line 335: ect delivery methods—when supported by ea → ect delivery methods; when supported by ea
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+247. Line 742: needs of real people—not just funding pri → needs of real people, not just funding pri
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+248. Line 2721: just pick a property—we build a legacy of → just pick a property; we build a legacy of
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+249. Line 3155: upon this foundation—exploring facility p → upon this foundation; exploring facility p
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+250. Line 3505: rienced design teams—including Owner’s Ad → rienced design teams; including Owner’s Ad
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+251. Line 4341: how much you care.”—Theodore Roosevelt → how much you care.”; Theodore Roosevelt
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+252. Line 5661: and owner’s advisors—who can move with sp → and owner’s advisors; who can move with sp
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+253. Line 6171: not just generalists—they are seasoned su → not just generalists: they are seasoned su
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+254. Line 7433: This book is a guide—but it’s also an inv → This book is a guide, but it’s also an inv
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+255. Line 1434: begins with clarity—mission, population → begins with clarity; mission, population
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+256. Line 3363: care. concept level—not after bids are r → care. concept level, not after bids are r
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+257. Line 3914: individual sessions—ideal for multi-use → individual sessions; ideal for multi-use
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+258. Line 4385: becomes a launchpad—not a landmine. → becomes a launchpad, not a landmine.
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+259. Line 4918: happen in isolation—it is the result of → happen in isolation: it is the result of
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+260. Line 6165: health environments—regulatory nuance, t → health environments; regulatory nuance, t
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+261. Line 769: more than builders—we must be stewards → more than builders; we must be stewards
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+262. Line 1532: an early milestone—it is the foundation → an early milestone: it is the foundation
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+263. Line 3118: ically sustainable—but socially, politi → ically sustainable, but socially, politi
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+264. Line  11: health facilities—on time, on budget, → health facilities; on time, on budget,
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+265. Line 280: Across California—and across the count → Across California, and across the count
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+266. Line 1456: integrity reviews—should be completed → integrity reviews; should be completed
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+267. Line 2246: cultivate success—from the ground up, → cultivate success; from the ground up,
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+268. Line 2614: and collaboration—it becomes the found → and collaboration: it becomes the found
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+269. Line 4102: dignity, recovery—into lived experienc → dignity, recovery; into lived experienc
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+270. Line 6214: munity priorities—each role is essenti → munity priorities; each role is essenti
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+271. Line 2714: brick is laid.”—DBIA Core Principle → brick is laid.”; DBIA Core Principle
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+272. Line 3204: more than spaces—they are therapeutic → more than spaces: they are therapeutic
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+273. Line 466: early and often—when they listen dee → early and often; when they listen dee
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+274. Line 628: private capital—each with its own ti → private capital; each with its own ti
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+275. Line 1421: the central hub—coordinating decisio → the central hub; coordinating decisio
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+276. Line 2454: date properties—then refine their op → date properties; then refine their op
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+277. Line 2477: velopment phase—largely due to overl → velopment phase; largely due to overl
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+278. Line 4234: tunity and risk—where strategic lead → tunity and risk; where strategic lead
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+279. Line 4408: and prepare for—can accelerate deliv → and prepare for; can accelerate deliv
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+280. Line 2664: retail centers—offering cost and ti → retail centers; offering cost and ti
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+281. Line 3959: to realization—building spaces that → to realization; building spaces that
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+282. Line 6459: go together.”—African Proverb Com → go together.”; African Proverb Com
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+283. Line 4326: Time is Money—and Credibility → Time is Money, and Credibility
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+284. Line 6502: ing buildings—it’s about creating → ing buildings; it’s about creating
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+285. Line 1617: unique value—and carries distinct → unique value, and carries distinct
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+286. Line 3702: interactions—quiet rooms, therapy → interactions; quiet rooms, therapy
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+287. Line 5665: set of plans—they translate urgen → set of plans: they translate urgen
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+288. Line 6154: role-fillers—they are mission-cri → role-fillers: they are mission-cri
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+289. Line 6603: negotiate.”—Chester L. Karrass → negotiate.”; Chester L. Karrass
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+290. Line 6710: alignment.”—Anonymous → alignment.”, Anonymous
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+291. Line 7176: operation.”—Project Management → operation.”; Project Management
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+292. Line 424: is a source—an origin point of v → is a source, an origin point of v
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+293. Line 710: shape us.”—Winston Churchill → shape us.”, Winston Churchill
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+294. Line 3434: mirror, and—if done right—a sour → mirror, and, if done right—a sour
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+295. Line 5151: development—from site acquisitio → development; from site acquisitio
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+296. Line 5185: supports it—and that begins long → supports it, and that begins long
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+297. Line 448: and CA.HCD—organizations whose → and CA.HCD, organizations whose
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+298. Line 851: opinion.”—W. Edwards Deming • → opinion.”, W. Edwards Deming •
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+299. Line 1175: constructs—they are lived reali → constructs: they are lived reali
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+300. Line 2600: Investment—Not a Guessing Game → Investment, Not a Guessing Game
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+301. Line 2680: considered—but translated into → considered, but translated into
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+302. Line 3513: and mortar—it becomes a catalys → and mortar: it becomes a catalys
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+303. Line 5108: experience—not just technical c → experience, not just technical c
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+304. Line 5679: ery models—they are manifestati → ery models: they are manifestati
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+305. Line 651: neighbors—ensure the project r → neighbors, ensure the project r
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+306. Line 1629: by chance—it is crafted by a d → by chance: it is crafted by a d
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+307. Line 4222: charge.”—Simon Sinek → charge.”, Simon Sinek
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+308. Line 491: counties—supporting teams tha → counties, supporting teams tha
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+309. Line 601: planning—responding swiftly t → planning, responding swiftly t
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+310. Line 2386: projects—but they require str → projects, but they require str
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+311. Line 3109: a vacuum—it unfolds in real n → a vacuum: it unfolds in real n
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+312. Line 3489: it looks—but how it works. He → it looks, but how it works. He
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+313. Line 1156: surface—both literally and f → surface, both literally and f
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+314. Line 2445: Advisor—a subject matter exp → Advisor, a subject matter exp
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+315. Line 4375: team.”—Phil Jackson → team.”, Phil Jackson
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+316. Line 4381: through—it’s an opportunity → through, it’s an opportunity
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+317. Line 6411: hurdles—are an inevitable re → hurdles, are an inevitable re
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+318. Line 7153: purpose—for healing, safety, → purpose, for healing, safety,
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+319. Line 314: cident—it is the result of → cident: it is the result of
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+320. Line 999: health—where specialized re → health, where specialized re
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+321. Line 2812: paused—and invited the comm → paused, and invited the comm
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+322. Line 4216: luxury—it is a necessity. L → luxury: it is a necessity. L
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+323. Line 5655: crisis—all at once. → crisis, all at once.
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+324. Line 7309: stones—they are moments of → stones: they are moments of
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+325. Line 415: ments—your participation h → ments, your participation h
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+326. Line 2449: it.”—Peter Drucker → it.”, Peter Drucker
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+327. Line 4142: stone—it is a moral and st → stone: it is a moral and st
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+328. Line 4323: do.”—Henry Ford → do.”, Henry Ford
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+329. Line 7377: areas—healthcare, design, → areas, healthcare, design,
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+330. Line 407: pist—know that your partn → pist, know that your partn
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+331. Line 536: ment—it is a living, brea → ment: it is a living, brea
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+332. Line 1585: ture—the roles, relations → ture, the roles, relations
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+333. Line 1785: tion—building partnership → tion, building partnership
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+334. Line 1878: ties—which require both s → ties, which require both s
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+335. Line 5631: tion—ensures the success → tion, ensures the success
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+336. Line 5659: team—a coalition of subje → team, a coalition of subje
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+337. Line 7325: POEs—experience measurabl → POEs, experience measurabl
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+338. Line 7334: open—they begin to heal. → open: they begin to heal.
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+339. Line 7461: tors—from housing and hea → tors, from housing and hea
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+340. Line 1760: ary—the party ultimately → ary, the party ultimately
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+341. Line 1943: als—it is a living syste → als: it is a living syste
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+342. Line 2481: ity—while a poorly vette → ity, while a poorly vette
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+343. Line 6940: ing—if done right. → ing, if done right.
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+344. Line 7357: ing—and so is the urgenc → ing, and so is the urgenc
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+345. Line 3423: es—they become instrume → es: they become instrume
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+346. Line 3542: es—that must guide ever → es, that must guide ever
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+347. Line 3980: al—can lead to field co → al, can lead to field co
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+348. Line 7103: ty—or falls short. It i → ty, or falls short. It i
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+349. Line 417: —this book is design → : this book is design
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+350. Line 609: —Dwight D. Eisenhowe → , Dwight D. Eisenhowe
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+351. Line 808: —Morris Chang → , Morris Chang
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+352. Line 888: —Alan Lakein → , Alan Lakein
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+353. Line 1544: —Malcolm X → , Malcolm X
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+354. Line 2743: —Dr. Judith Rodin, f → , Dr. Judith Rodin, f
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+355. Line 6577: —Dwight D. Eisenhowe → , Dwight D. Eisenhowe
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+356. Line 7150: —Henry Ford → , Henry Ford
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+357. Line 7352: —Mahatma Gandhi → , Mahatma Gandhi
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+

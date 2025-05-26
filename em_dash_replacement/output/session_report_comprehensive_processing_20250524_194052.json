@@ -1,0 +1,575 @@
+{
+  "session_id": "comprehensive_processing_20250524_194052",
+  "timestamp": "2025-05-24T19:40:52.321910",
+  "input_file": "../em_dash_replacement/input/test_em_dash_sample.txt",
+  "output_file": "../em_dash_replacement/output/processed_test_em_dash_sample.txt",
+  "backup_file": "../em_dash_replacement/input/test_em_dash_sample_backup_20250524_194052.txt",
+  "processing_time_seconds": 0.000972,
+  "total_em_dashes": 26,
+  "replacements_made": 26,
+  "remaining_em_dashes": 0,
+  "analysis_summary": {
+    "total_analyzed": 26,
+    "analysis_details": [
+      {
+        "line_number": 3,
+        "position": 20,
+        "context_before": "The process is clear",
+        "context_after": "we must establish a",
+        "full_line": "The process is clear—we must establish a framework for success. However, many organizations struggle with implementation—not because of lack of resources, but due to poor planning.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 3,
+        "position": 120,
+        "context_before": "with implementation",
+        "context_after": "not because of lack",
+        "full_line": "The process is clear—we must establish a framework for success. However, many organizations struggle with implementation—not because of lack of resources, but due to poor planning.",
+        "recommended_replacement": ", ",
+        "reasoning": "Parenthetical expression - comma maintains flow and readability",
+        "confidence_score": 0.9,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 6,
+        "position": 15,
+        "context_before": "• Due diligence",
+        "context_after": "this cannot be overl",
+        "full_line": "• Due diligence—this cannot be overlooked",
+        "recommended_replacement": ": ",
+        "reasoning": "Introducing explanation or elaboration - colon is most appropriate",
+        "confidence_score": 0.85,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 7,
+        "position": 20,
+        "context_before": "• Strategic planning",
+        "context_after": "essential for long-t",
+        "full_line": "• Strategic planning—essential for long-term success  ",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 8,
+        "position": 22,
+        "context_before": "Community engagement",
+        "context_after": "critical for public",
+        "full_line": "• Community engagement—critical for public support",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 10,
+        "position": 48,
+        "context_before": "risk (CMAR) approach",
+        "context_after": "often misunderstood",
+        "full_line": "The construction manager at risk (CMAR) approach—often misunderstood by newcomers—provides several advantages. First, it allows for early contractor involvement—a significant benefit. Second, it enables cost control—something traditional methods often lack.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 10,
+        "position": 81,
+        "context_before": "erstood by newcomers",
+        "context_after": "provides several adv",
+        "full_line": "The construction manager at risk (CMAR) approach—often misunderstood by newcomers—provides several advantages. First, it allows for early contractor involvement—a significant benefit. Second, it enables cost control—something traditional methods often lack.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 10,
+        "position": 160,
+        "context_before": "ntractor involvement",
+        "context_after": "a significant benefi",
+        "full_line": "The construction manager at risk (CMAR) approach—often misunderstood by newcomers—provides several advantages. First, it allows for early contractor involvement—a significant benefit. Second, it enables cost control—something traditional methods often lack.",
+        "recommended_replacement": ", ",
+        "reasoning": "General parenthetical usage - comma provides appropriate pause",
+        "confidence_score": 0.7,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 10,
+        "position": 215,
+        "context_before": "enables cost control",
+        "context_after": "something traditiona",
+        "full_line": "The construction manager at risk (CMAR) approach—often misunderstood by newcomers—provides several advantages. First, it allows for early contractor involvement—a significant benefit. Second, it enables cost control—something traditional methods often lack.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 12,
+        "position": 43,
+        "context_before": "failure is not fatal",
+        "context_after": "it is the courage to",
+        "full_line": "\"Success is not final, failure is not fatal—it is the courage to continue that counts.\" — Winston Churchill",
+        "recommended_replacement": ": ",
+        "reasoning": "Introducing explanation or elaboration - colon is most appropriate",
+        "confidence_score": 0.85,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 12,
+        "position": 88,
+        "context_before": "tinue that counts.\"",
+        "context_after": "Winston Churchill",
+        "full_line": "\"Success is not final, failure is not fatal—it is the courage to continue that counts.\" — Winston Churchill",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 15,
+        "position": 17,
+        "context_before": "1. Planning phase",
+        "context_after": "establish vision and",
+        "full_line": "1. Planning phase—establish vision and goals",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 16,
+        "position": 19,
+        "context_before": "2. Permitting phase",
+        "context_after": "navigate regulatory",
+        "full_line": "2. Permitting phase—navigate regulatory requirements",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 17,
+        "position": 21,
+        "context_before": ". Construction phase",
+        "context_after": "execute the vision",
+        "full_line": "3. Construction phase—execute the vision",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 19,
+        "position": 22,
+        "context_before": "e development budget",
+        "context_after": "including land acqui",
+        "full_line": "The development budget—including land acquisition, soft costs, and hard costs—must be carefully managed. Fixtures, furniture, and equipment (FF&E)—often an afterthought—require early planning.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 19,
+        "position": 77,
+        "context_before": "osts, and hard costs",
+        "context_after": "must be carefully ma",
+        "full_line": "The development budget—including land acquisition, soft costs, and hard costs—must be carefully managed. Fixtures, furniture, and equipment (FF&E)—often an afterthought—require early planning.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 19,
+        "position": 146,
+        "context_before": "and equipment (FF&E)",
+        "context_after": "often an afterthough",
+        "full_line": "The development budget—including land acquisition, soft costs, and hard costs—must be carefully managed. Fixtures, furniture, and equipment (FF&E)—often an afterthought—require early planning.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 19,
+        "position": 168,
+        "context_before": "ften an afterthought",
+        "context_after": "require early planni",
+        "full_line": "The development budget—including land acquisition, soft costs, and hard costs—must be carefully managed. Fixtures, furniture, and equipment (FF&E)—often an afterthought—require early planning.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 21,
+        "position": 51,
+        "context_before": "mprehensive planning",
+        "context_after": "when done correctly—",
+        "full_line": "Best practices indicate that comprehensive planning—when done correctly—saves both time and money. The alternative—reactive planning—leads to cost overruns and delays.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 21,
+        "position": 71,
+        "context_before": "—when done correctly",
+        "context_after": "saves both time and",
+        "full_line": "Best practices indicate that comprehensive planning—when done correctly—saves both time and money. The alternative—reactive planning—leads to cost overruns and delays.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 21,
+        "position": 114,
+        "context_before": "ney. The alternative",
+        "context_after": "reactive planning—le",
+        "full_line": "Best practices indicate that comprehensive planning—when done correctly—saves both time and money. The alternative—reactive planning—leads to cost overruns and delays.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 21,
+        "position": 132,
+        "context_before": "ve—reactive planning",
+        "context_after": "leads to cost overru",
+        "full_line": "Best practices indicate that comprehensive planning—when done correctly—saves both time and money. The alternative—reactive planning—leads to cost overruns and delays.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 23,
+        "position": 21,
+        "context_before": "ommunity integration",
+        "context_after": "the final piece of t",
+        "full_line": "Community integration—the final piece of the puzzle—ensures long-term success. Without it—even the best projects can fail.",
+        "recommended_replacement": ", ",
+        "reasoning": "General parenthetical usage - comma provides appropriate pause",
+        "confidence_score": 0.7,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 23,
+        "position": 51,
+        "context_before": "piece of the puzzle",
+        "context_after": "ensures long-term su",
+        "full_line": "Community integration—the final piece of the puzzle—ensures long-term success. Without it—even the best projects can fail.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 23,
+        "position": 89,
+        "context_before": "success. Without it",
+        "context_after": "even the best projec",
+        "full_line": "Community integration—the final piece of the puzzle—ensures long-term success. Without it—even the best projects can fail.",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      },
+      {
+        "line_number": 25,
+        "position": 21,
+        "context_before": "ote: All em dashes (",
+        "context_after": ") in this document s",
+        "full_line": "Note: All em dashes (—) in this document should be replaced with appropriate punctuation based on context. ",
+        "recommended_replacement": "; ",
+        "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+        "confidence_score": 0.8,
+        "grammatical_function": "clause_connector"
+      }
+    ]
+  },
+  "replacement_log": [
+    {
+      "line_number": 10,
+      "original_text": "enables cost control—something traditiona",
+      "replaced_text": "enables cost control; something traditiona",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321617"
+    },
+    {
+      "line_number": 19,
+      "original_text": "ften an afterthought—require early planni",
+      "replaced_text": "ften an afterthought; require early planni",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321630"
+    },
+    {
+      "line_number": 10,
+      "original_text": "ntractor involvement—a significant benefi",
+      "replaced_text": "ntractor involvement, a significant benefi",
+      "replacement_type": ",",
+      "reasoning": "General parenthetical usage - comma provides appropriate pause",
+      "confidence_score": 0.7,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321638"
+    },
+    {
+      "line_number": 19,
+      "original_text": "and equipment (FF&E)—often an afterthough",
+      "replaced_text": "and equipment (FF&E); often an afterthough",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321645"
+    },
+    {
+      "line_number": 21,
+      "original_text": "ve—reactive planning—leads to cost overru",
+      "replaced_text": "ve—reactive planning; leads to cost overru",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321651"
+    },
+    {
+      "line_number": 3,
+      "original_text": "with implementation—not because of lack",
+      "replaced_text": "with implementation, not because of lack",
+      "replacement_type": ",",
+      "reasoning": "Parenthetical expression - comma maintains flow and readability",
+      "confidence_score": 0.9,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321657"
+    },
+    {
+      "line_number": 21,
+      "original_text": "ney. The alternative—reactive planning—le",
+      "replaced_text": "ney. The alternative; reactive planning—le",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321663"
+    },
+    {
+      "line_number": 23,
+      "original_text": "success. Without it—even the best projec",
+      "replaced_text": "success. Without it; even the best projec",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321669"
+    },
+    {
+      "line_number": 12,
+      "original_text": "tinue that counts.\"—Winston Churchill",
+      "replaced_text": "tinue that counts.\"; Winston Churchill",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321674"
+    },
+    {
+      "line_number": 10,
+      "original_text": "erstood by newcomers—provides several adv",
+      "replaced_text": "erstood by newcomers; provides several adv",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321680"
+    },
+    {
+      "line_number": 19,
+      "original_text": "osts, and hard costs—must be carefully ma",
+      "replaced_text": "osts, and hard costs; must be carefully ma",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321686"
+    },
+    {
+      "line_number": 21,
+      "original_text": "—when done correctly—saves both time and",
+      "replaced_text": "—when done correctly; saves both time and",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321691"
+    },
+    {
+      "line_number": 21,
+      "original_text": "mprehensive planning—when done correctly—",
+      "replaced_text": "mprehensive planning; when done correctly—",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321699"
+    },
+    {
+      "line_number": 23,
+      "original_text": "piece of the puzzle—ensures long-term su",
+      "replaced_text": "piece of the puzzle; ensures long-term su",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321706"
+    },
+    {
+      "line_number": 10,
+      "original_text": "risk (CMAR) approach—often misunderstood",
+      "replaced_text": "risk (CMAR) approach; often misunderstood",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321712"
+    },
+    {
+      "line_number": 12,
+      "original_text": "failure is not fatal—it is the courage to",
+      "replaced_text": "failure is not fatal: it is the courage to",
+      "replacement_type": ":",
+      "reasoning": "Introducing explanation or elaboration - colon is most appropriate",
+      "confidence_score": 0.85,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321718"
+    },
+    {
+      "line_number": 8,
+      "original_text": "Community engagement—critical for public",
+      "replaced_text": "Community engagement; critical for public",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321724"
+    },
+    {
+      "line_number": 19,
+      "original_text": "e development budget—including land acqui",
+      "replaced_text": "e development budget; including land acqui",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321729"
+    },
+    {
+      "line_number": 17,
+      "original_text": ". Construction phase—execute the vision",
+      "replaced_text": ". Construction phase; execute the vision",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321734"
+    },
+    {
+      "line_number": 23,
+      "original_text": "ommunity integration—the final piece of t",
+      "replaced_text": "ommunity integration, the final piece of t",
+      "replacement_type": ",",
+      "reasoning": "General parenthetical usage - comma provides appropriate pause",
+      "confidence_score": 0.7,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321740"
+    },
+    {
+      "line_number": 25,
+      "original_text": "ote: All em dashes (—) in this document s",
+      "replaced_text": "ote: All em dashes (; ) in this document s",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321746"
+    },
+    {
+      "line_number": 3,
+      "original_text": "The process is clear—we must establish a",
+      "replaced_text": "The process is clear; we must establish a",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321751"
+    },
+    {
+      "line_number": 7,
+      "original_text": "• Strategic planning—essential for long-t",
+      "replaced_text": "• Strategic planning; essential for long-t",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321757"
+    },
+    {
+      "line_number": 16,
+      "original_text": "2. Permitting phase—navigate regulatory",
+      "replaced_text": "2. Permitting phase; navigate regulatory",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321763"
+    },
+    {
+      "line_number": 15,
+      "original_text": "1. Planning phase—establish vision and",
+      "replaced_text": "1. Planning phase; establish vision and",
+      "replacement_type": ";",
+      "reasoning": "Connecting related independent clauses - semicolon preserves relationship",
+      "confidence_score": 0.8,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321768"
+    },
+    {
+      "line_number": 6,
+      "original_text": "• Due diligence—this cannot be overl",
+      "replaced_text": "• Due diligence: this cannot be overl",
+      "replacement_type": ":",
+      "reasoning": "Introducing explanation or elaboration - colon is most appropriate",
+      "confidence_score": 0.85,
+      "grammatical_function": "clause_connector",
+      "timestamp": "2025-05-24T19:40:52.321774"
+    }
+  ],
+  "agent_info": {
+    "model": "gemini-2.5-flash-preview-05-20",
+    "agent_name": "comprehensive_em_dash_analyzer",
+    "confidence_threshold": 0.7
+  },
+  "content_statistics": {
+    "original_length": 1570,
+    "processed_length": 1596,
+    "lines_processed": 25,
+    "character_changes": 26
+  }
+}
