@@ -1,0 +1,130 @@
+WELLSPRING EM DASH REPLACEMENT SUMMARY
+==================================================
+
+Session ID: comprehensive_processing_20250524_194052
+Timestamp: 2025-05-24T19:40:52.321910
+Model: gemini-2.5-flash-preview-05-20
+
+PROCESSING RESULTS:
+• Input File: ../em_dash_replacement/input/test_em_dash_sample.txt
+• Output File: ../em_dash_replacement/output/processed_test_em_dash_sample.txt
+• Backup File: ../em_dash_replacement/input/test_em_dash_sample_backup_20250524_194052.txt
+• Processing Time: 0.00 seconds
+
+STATISTICS:
+• Total Em Dashes Found: 26
+• Replacements Made: 26
+• Remaining Em Dashes: 0
+• Success Rate: 100.0%
+
+REPLACEMENT BREAKDOWN:
+• ;: 21 instances
+• ,: 3 instances
+• :: 2 instances
+
+DETAILED CHANGES:
+--------------------
+ 1. Line  10: enables cost control—something traditiona → enables cost control; something traditiona
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+ 2. Line  19: ften an afterthought—require early planni → ften an afterthought; require early planni
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+ 3. Line  10: ntractor involvement—a significant benefi → ntractor involvement, a significant benefi
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+ 4. Line  19: and equipment (FF&E)—often an afterthough → and equipment (FF&E); often an afterthough
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+ 5. Line  21: ve—reactive planning—leads to cost overru → ve—reactive planning; leads to cost overru
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+ 6. Line   3: with implementation—not because of lack → with implementation, not because of lack
+    Reason: Parenthetical expression - comma maintains flow and readability
+    Confidence: 0.90
+
+ 7. Line  21: ney. The alternative—reactive planning—le → ney. The alternative; reactive planning—le
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+ 8. Line  23: success. Without it—even the best projec → success. Without it; even the best projec
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+ 9. Line  12: tinue that counts."—Winston Churchill → tinue that counts."; Winston Churchill
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+10. Line  10: erstood by newcomers—provides several adv → erstood by newcomers; provides several adv
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+11. Line  19: osts, and hard costs—must be carefully ma → osts, and hard costs; must be carefully ma
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+12. Line  21: —when done correctly—saves both time and → —when done correctly; saves both time and
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+13. Line  21: mprehensive planning—when done correctly— → mprehensive planning; when done correctly—
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+14. Line  23: piece of the puzzle—ensures long-term su → piece of the puzzle; ensures long-term su
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+15. Line  10: risk (CMAR) approach—often misunderstood → risk (CMAR) approach; often misunderstood
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+16. Line  12: failure is not fatal—it is the courage to → failure is not fatal: it is the courage to
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
+17. Line   8: Community engagement—critical for public → Community engagement; critical for public
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+18. Line  19: e development budget—including land acqui → e development budget; including land acqui
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+19. Line  17: . Construction phase—execute the vision → . Construction phase; execute the vision
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+20. Line  23: ommunity integration—the final piece of t → ommunity integration, the final piece of t
+    Reason: General parenthetical usage - comma provides appropriate pause
+    Confidence: 0.70
+
+21. Line  25: ote: All em dashes (—) in this document s → ote: All em dashes (; ) in this document s
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+22. Line   3: The process is clear—we must establish a → The process is clear; we must establish a
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+23. Line   7: • Strategic planning—essential for long-t → • Strategic planning; essential for long-t
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+24. Line  16: 2. Permitting phase—navigate regulatory → 2. Permitting phase; navigate regulatory
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+25. Line  15: 1. Planning phase—establish vision and → 1. Planning phase; establish vision and
+    Reason: Connecting related independent clauses - semicolon preserves relationship
+    Confidence: 0.80
+
+26. Line   6: • Due diligence—this cannot be overl → • Due diligence: this cannot be overl
+    Reason: Introducing explanation or elaboration - colon is most appropriate
+    Confidence: 0.85
+
