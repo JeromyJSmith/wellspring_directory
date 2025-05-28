@@ -1,0 +1,51 @@
+WELLSPRING CHAPTER FORMATTING SPECIFICATIONS
+==================================================
+
+SUMMARY:
+Total chapters: 3
+Iconography specs: 3
+Pages affected: 300+
+
+MARGIN ADJUSTMENTS:
+Top margin: 51pt → 54pt (+3 points)
+Bottom margin: 51pt → 54pt (+3 points)
+Inside margin: 54pt → 57pt (+3 points)
+Outside margin: 54pt → 57pt (+3 points)
+
+TYPOGRAPHY CHANGES:
+Chapter title font: Minion Pro
+Chapter title size: 24pt
+Primary color: #1B365D (Dark Blue)
+Accent color: #D4AF37 (Gold)
+
+CHAPTER-SPECIFIC FORMATTING:
+
+Chapter 1: Introduction to Behavioral Health Capital Projects
+  Start page: 15
+  Layout: Right-hand page start
+  Icon type: foundation
+  Color scheme: dark_blue_gold
+  Icon: architectural_foundation
+  Position: top-right
+  Size: 72x72 points
+  Colors: #1B365D, #D4AF37, #F5F5F5
+
+Chapter 2: Planning and Pre-Development
+  Start page: 45
+  Layout: Right-hand page start
+  Icon type: blueprint
+  Color scheme: dark_blue_gold
+  Icon: technical_blueprint
+  Position: top-right
+  Size: 72x72 points
+  Colors: #1B365D, #D4AF37, #E8E8E8
+
+Chapter 3: Design and Development Process
+  Start page: 78
+  Layout: Right-hand page start
+  Icon type: compass
+  Color scheme: dark_blue_gold
+  Icon: navigation_compass
+  Position: top-right
+  Size: 72x72 points
+  Colors: #1B365D, #D4AF37, #FFFFFF

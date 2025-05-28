@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document>
+    <idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging">
+        <MasterSpread Self="ub6" Length="1">
+            <Properties>
+                <Label>A-Master</Label>
+            </Properties>
+            <MarginPreference>
+                <Properties>
+                    <Top>54</Top>
+                    <Bottom>54</Bottom>
+                    <Inside>57</Inside>
+                    <Outside>57</Outside>
+                </Properties>
+            </MarginPreference>
+        </MasterSpread>
+        
+        <!-- Chapter Styles -->
+        <ParagraphStyle Self="ChapterTitle">
+            <Properties>
+                <Name>Chapter Title</Name>
+                <AppliedFont>Minion Pro</AppliedFont>
+                <PointSize>24</PointSize>
+                <FillColor>#1B365D</FillColor>
+            </Properties>
+        </ParagraphStyle>
+        
+        <!-- Architectural Corner Style -->
+        <ObjectStyle Self="ArchitecturalCorner">
+            <Properties>
+                <Name>Architectural Corner</Name>
+                <FillColor>#1B365D</FillColor>
+            </Properties>
+        </ObjectStyle>
+    </idPkg:Spread>
+</Document>
