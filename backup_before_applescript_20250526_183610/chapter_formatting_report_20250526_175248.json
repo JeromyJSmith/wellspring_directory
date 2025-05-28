@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "total_chapters": 3,
+    "formatting_specs_applied": true,
+    "iconography_generated": true,
+    "indesign_script_ready": true
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introduction to Behavioral Health Capital Projects",
+      "start_page": 15,
+      "layout_requirements": {
+        "right_page_start": true,
+        "preceding_blank_page": true,
+        "architectural_corners": true,
+        "custom_iconography": true
+      },
+      "formatting_applied": {
+        "margins": "+3 points all sides",
+        "header_colors": "Dark blue (#1B365D) and Gold (#D4AF37)",
+        "typography": "Minion Pro, 24pt chapter titles"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Planning and Pre-Development",
+      "start_page": 45,
+      "layout_requirements": {
+        "right_page_start": true,
+        "preceding_blank_page": true,
+        "architectural_corners": true,
+        "custom_iconography": true
+      },
+      "formatting_applied": {
+        "margins": "+3 points all sides",
+        "header_colors": "Dark blue (#1B365D) and Gold (#D4AF37)",
+        "typography": "Minion Pro, 24pt chapter titles"
+      }
+    },
+    {
+      "number": 3,
+      "title": "Design and Development Process",
+      "start_page": 78,
+      "layout_requirements": {
+        "right_page_start": true,
+        "preceding_blank_page": true,
+        "architectural_corners": true,
+        "custom_iconography": true
+      },
+      "formatting_applied": {
+        "margins": "+3 points all sides",
+        "header_colors": "Dark blue (#1B365D) and Gold (#D4AF37)",
+        "typography": "Minion Pro, 24pt chapter titles"
+      }
+    }
+  ],
+  "specifications": {
+    "margins": {
+      "top": 54,
+      "bottom": 54,
+      "inside": 57,
+      "outside": 57
+    },
+    "chapter_style": {
+      "start_on": "right_page",
+      "preceding_blank": true,
+      "architectural_corners": true,
+      "color_scheme": "dark_blue_gold"
+    },
+    "typography": {
+      "chapter_title_font": "Minion Pro",
+      "chapter_title_size": 24,
+      "header_colors": {
+        "primary": "#1B365D",
+        "accent": "#D4AF37"
+      }
+    }
+  },
+  "recommendations": [
+    "Consider adding custom architectural corner designs",
+    "Implement chapter-specific color variations",
+    "Add page numbering considerations for right-page starts",
+    "Plan for Table of Contents font size reduction (2 points)",
+    "Coordinate with visual infographic placement"
+  ]
+}

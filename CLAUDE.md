@@ -2,39 +2,42 @@
 
 ## Build & Test Commands
 - Build: `python -m hatchling build`
-- Install dev dependencies: `pip install -e ".[dev]"` or `uv install -e ".[dev]"`
+- Install dependencies: `pip install -e ".[dev,ai,research]"` or `uv install -e ".[full]"`
 - Run tests: `pytest -ra --strict-markers tests/`
 - Run single test: `pytest tests/test_file.py::test_function -v`
 - Lint code: `black .`
 - System test: `python test_system.py`
 - CLI usage: `python wellspring_cli.py [command]`
 - Process typography: `python em_dash_replacement/scripts/em_dash_processor.py`
+- Generate visual infographics: `python deep_research_agent/scripts/visual_opportunities_generator.py`
+- Initialize database: `python shared_utils/data/init_database.py`
 
 ## Code Style Guidelines
 - Black formatting with line length 100
-- Python 3.9+ support (3.9, 3.10, 3.11, 3.12)
-- Type hints required for all function parameters and returns
-- Docstrings for all modules, classes, and public methods
-- Module imports order: stdlib, third-party, local
-- Error handling: use try/except with specific exception types
-- Prefer async patterns for agent workflows
-- Keep files under 500 lines when possible
-- Comment non-obvious code and explain intent with `# Reason:`
+- Python 3.9+ support (target all versions 3.9-3.12)
+- Type hints required for all parameters and returns
+- Use dataclasses for structured data models
+- Module imports order: stdlib → third-party → local
+- Error handling: Specific exceptions with detailed logging
+- SQLite for persistent storage with clear schema design
+- Docstrings with triple quotes for all modules, classes, methods
+- Keep files < 500 lines; split complex functionality
+- Comment non-obvious code with `# Reason:`
+- Context manager patterns for database and file operations
 
-## Em Dash Replacement Rules
-- Replace em dashes with context-appropriate punctuation
-- Common replacements:
-  - Parenthetical info: em dash → commas
-  - Ranges: em dash → "to" or "-"
-  - Attribution: em dash → period + space + em dash
-  - Abrupt change: em dash → comma or semicolon
-  - List introduction: em dash → colon
-- Always consider: sentence structure, paragraph coherence, author's intent
-- Log all changes with page/line numbers and replacement rationale
+## Agent Orchestration & Data Model
+- Agent communication via strict JSON contracts
+- Data persistence through SQLite database (wellspring.db)
+- Main tables: typography_sessions, em_dash_patterns, visual_opportunities
+- Log processing sessions and statistics for traceability
+- Confidence thresholds control automation vs. manual review
+- Report generation in structured markdown format
+- Context-based pattern matching with similarity scoring
 
 ## Project Organization
-- Typography corrections use `em_dash_replacement/` directory
-- Research outputs go in `deep_research_agent/` directory
-- Shared utilities live in `shared_utils/`
-- Configuration managed through `config.json`
-- Agent orchestration via rules in `.cursor/rules/` directory
+- Typography corrections: `em_dash_replacement/`
+- Research outputs: `deep_research_agent/`
+- Agent workflows: `google_adk_agents/`
+- Shared utilities: `shared_utils/`
+- Configuration: `config.json` and pyproject.toml `[tool.wellspring]`
+- Agent rules: `.cursor/rules/`

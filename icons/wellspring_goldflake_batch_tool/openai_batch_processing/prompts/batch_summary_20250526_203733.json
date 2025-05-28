@@ -1,0 +1,128 @@
+{
+  "created_at": "20250526_203733",
+  "total_requests": 20,
+  "chapters": 16,
+  "sections": 4,
+  "requests": [
+    {
+      "id": "chapter_002",
+      "title": "Architectural Test Fits and Conceptual Design",
+      "keywords": "architectural blueprints, construction sites, modern buildings, design tools, structural elements, urban planning",
+      "prompt_length": 1392
+    },
+    {
+      "id": "chapter_003",
+      "title": "Celebrating Success and Acknowledging Contributions",
+      "keywords": "professional business environments, organizational excellence, project management, collaborative workspaces",
+      "prompt_length": 1392
+    },
+    {
+      "id": "chapter_004",
+      "title": "Landscape Architect",
+      "keywords": "architectural blueprints, construction sites, modern buildings, design tools, structural elements, urban planning",
+      "prompt_length": 1366
+    },
+    {
+      "id": "chapter_005",
+      "title": "Phased Development Strategy",
+      "keywords": "leadership symbols, strategic planning, vision concepts, corporate boardrooms, organizational charts",
+      "prompt_length": 1361
+    },
+    {
+      "id": "chapter_006",
+      "title": "Post-Occupancy Evaluation",
+      "keywords": "quality control symbols, management charts, documentation systems, inspection tools, performance metrics",
+      "prompt_length": 1363
+    },
+    {
+      "id": "chapter_007",
+      "title": "5\" />",
+      "keywords": "professional business environments, organizational excellence, project management, collaborative workspaces",
+      "prompt_length": 1346
+    },
+    {
+      "id": "chapter_009",
+      "title": "Best Practices of Successful Behavioral Health Real Estate Development",
+      "keywords": "healthcare facilities, medical symbols, healing environments, therapeutic spaces, modern hospital architecture",
+      "prompt_length": 1414
+    },
+    {
+      "id": "chapter_010",
+      "title": "Efficient Site Utilization",
+      "keywords": "professional business environments, organizational excellence, project management, collaborative workspaces",
+      "prompt_length": 1367
+    },
+    {
+      "id": "chapter_011",
+      "title": "Preliminary Construction Cost Estimates",
+      "keywords": "architectural blueprints, construction sites, modern buildings, design tools, structural elements, urban planning",
+      "prompt_length": 1386
+    },
+    {
+      "id": "chapter_012",
+      "title": "Utility Consultant",
+      "keywords": "engineering blueprints, technical diagrams, machinery, electrical systems, infrastructure networks",
+      "prompt_length": 1350
+    },
+    {
+      "id": "chapter_013",
+      "title": "underscores the indispensable role of field leadership, documentation, and strategic collaboration. ",
+      "keywords": "leadership symbols, strategic planning, vision concepts, corporate boardrooms, organizational charts",
+      "prompt_length": 1434
+    },
+    {
+      "id": "chapter_015",
+      "title": "Accessibility-Driven Design",
+      "keywords": "architectural blueprints, construction sites, modern buildings, design tools, structural elements, urban planning",
+      "prompt_length": 1374
+    },
+    {
+      "id": "chapter_016",
+      "title": "Capital Stack and Funding Alignment",
+      "keywords": "professional business environments, organizational excellence, project management, collaborative workspaces",
+      "prompt_length": 1376
+    },
+    {
+      "id": "chapter_017",
+      "title": "Healthcare Consultant",
+      "keywords": "healthcare facilities, medical symbols, healing environments, therapeutic spaces, modern hospital architecture",
+      "prompt_length": 1365
+    },
+    {
+      "id": "chapter_018",
+      "title": "Rapid Delivery Best Practices",
+      "keywords": "professional business environments, organizational excellence, project management, collaborative workspaces",
+      "prompt_length": 1370
+    },
+    {
+      "id": "chapter_019",
+      "title": "5\" SpaceAfter=\"4.5\">",
+      "keywords": "architectural blueprints, construction sites, modern buildings, design tools, structural elements, urban planning",
+      "prompt_length": 1367
+    },
+    {
+      "id": "section_table_of_contents",
+      "title": "Table of Contents",
+      "keywords": "manuscript elements, book organization, literary symbols, classical typography",
+      "prompt_length": 1329
+    },
+    {
+      "id": "section_introduction",
+      "title": "Introduction",
+      "keywords": "manuscript elements, book organization, literary symbols, classical typography",
+      "prompt_length": 1324
+    },
+    {
+      "id": "section_setting_the_vision",
+      "title": "Setting the Vision",
+      "keywords": "manuscript elements, book organization, literary symbols, classical typography",
+      "prompt_length": 1330
+    },
+    {
+      "id": "section_conclusion",
+      "title": "Conclusion",
+      "keywords": "manuscript elements, book organization, literary symbols, classical typography",
+      "prompt_length": 1322
+    }
+  ]
+}

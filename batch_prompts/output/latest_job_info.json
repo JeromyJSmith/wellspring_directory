@@ -1,0 +1,9 @@
+{
+  "job_id": "batch_683506cc77cc8190b47611aeff3f7024",
+  "status": "validating",
+  "created_at": "2025-05-26T17:26:52",
+  "description": "Wellspring Visual Research - 2025-05-26 17:26",
+  "file_id": "file-4FvSUvWgBmi2LT4Mj8uuhz",
+  "task_count": 9,
+  "input_file": "/Users/ojeromyo/Desktop/wellspring_directory/em_dash_replacement/changelog/visual_batch_prompts_20250526_171050.json"
+}

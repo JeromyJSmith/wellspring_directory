@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wellspring_formatting>
+  <metadata>
+    <generated_at>2025-05-26T18:00:58.852222</generated_at>
+    <total_chapters>3</total_chapters>
+    <iconography_specs>3</iconography_specs>
+  </metadata>
+  <margins>
+    <top>54</top>
+    <bottom>54</bottom>
+    <inside>57</inside>
+    <outside>57</outside>
+  </margins>
+  <typography>
+    <chapter_title_font>Minion Pro</chapter_title_font>
+    <chapter_title_size>24</chapter_title_size>
+    <primary_color>#1B365D</primary_color>
+    <accent_color>#D4AF37</accent_color>
+  </typography>
+  <chapters>
+    <chapter>
+      <number>1</number>
+      <title><![CDATA[Introduction to Behavioral Health Capital Projects]]></title>
+      <start_page>15</start_page>
+      <icon_type>foundation</icon_type>
+      <color_scheme>dark_blue_gold</color_scheme>
+      <iconography>
+        <icon_name>architectural_foundation</icon_name>
+        <position>top-right</position>
+        <width>72</width>
+        <height>72</height>
+        <colors>
+          <color>#1B365D</color>
+          <color>#D4AF37</color>
+          <color>#F5F5F5</color>
+        </colors>
+      </iconography>
+    </chapter>
+    <chapter>
+      <number>2</number>
+      <title><![CDATA[Planning and Pre-Development]]></title>
+      <start_page>45</start_page>
+      <icon_type>blueprint</icon_type>
+      <color_scheme>dark_blue_gold</color_scheme>
+      <iconography>
+        <icon_name>technical_blueprint</icon_name>
+        <position>top-right</position>
+        <width>72</width>
+        <height>72</height>
+        <colors>
+          <color>#1B365D</color>
+          <color>#D4AF37</color>
+          <color>#E8E8E8</color>
+        </colors>
+      </iconography>
+    </chapter>
+    <chapter>
+      <number>3</number>
+      <title><![CDATA[Design and Development Process]]></title>
+      <start_page>78</start_page>
+      <icon_type>compass</icon_type>
+      <color_scheme>dark_blue_gold</color_scheme>
+      <iconography>
+        <icon_name>navigation_compass</icon_name>
+        <position>top-right</position>
+        <width>72</width>
+        <height>72</height>
+        <colors>
+          <color>#1B365D</color>
+          <color>#D4AF37</color>
+          <color>#FFFFFF</color>
+        </colors>
+      </iconography>
+    </chapter>
+  </chapters>
+</wellspring_formatting>
