@@ -1,0 +1,185 @@
+{
+  "agent_name": "behavioral_health_sme_editing_agent_advanced",
+  "version": "3.0.0",
+  "description": "Advanced BHSME-aware editing agent with real-time compliance monitoring, stakeholder validation, continuous learning, and predictive insights for behavioral health real estate development content",
+  "capabilities": [
+    "automatic_edit_application",
+    "real_time_compliance_monitoring",
+    "interactive_stakeholder_validation",
+    "continuous_learning_adaptation",
+    "predictive_recommendations",
+    "project_context_awareness",
+    "dhcs_regulatory_compliance",
+    "professional_authority_enhancement"
+  ],
+  "advanced_features": {
+    "compliance_dashboard": {
+      "metrics": [
+        "DHCS Regulatory Compliance",
+        "Professional Authority",
+        "Stakeholder Readability",
+        "Terminology Consistency",
+        "Grant Application Readiness"
+      ],
+      "real_time_monitoring": true,
+      "target_scores": {
+        "dhcs_compliance": 9.5,
+        "professional_authority": 9.0,
+        "readability": 8.5,
+        "terminology": 9.0,
+        "grant_readiness": 9.5
+      }
+    },
+    "stakeholder_validation": {
+      "validation_types": ["approve", "modify", "reject", "defer"],
+      "stakeholder_roles": ["sme", "developer", "clinician", "reviewer"],
+      "batch_operations": true,
+      "confidence_thresholds": {
+        "auto_approve": 0.95,
+        "require_review": 0.7,
+        "flag_for_sme": 0.5
+      }
+    },
+    "continuous_learning": {
+      "feedback_collection": true,
+      "pattern_analysis": true,
+      "effectiveness_tracking": true,
+      "historical_data_limit": 100,
+      "learning_categories": [
+        "edit_effectiveness",
+        "stakeholder_preferences",
+        "compliance_patterns",
+        "project_context_correlations"
+      ]
+    },
+    "predictive_insights": {
+      "future_optimizations": true,
+      "time_savings_estimates": true,
+      "quality_predictions": true,
+      "recommendation_confidence": true
+    },
+    "project_context_awareness": {
+      "facility_type_adaptation": true,
+      "regional_customization": true,
+      "funding_source_alignment": true,
+      "target_population_focus": true,
+      "compliance_requirement_tracking": true
+    }
+  },
+  "editing_focus_areas": [
+    {
+      "name": "pillar_replacement",
+      "description": "Replace pillar analogies with architectural/building terminology",
+      "confidence_threshold": 0.95,
+      "auto_apply": true,
+      "validation_required": false
+    },
+    {
+      "name": "bhsme_terminology",
+      "description": "Standardize BHSME terminology with DHCS references",
+      "confidence_threshold": 0.9,
+      "auto_apply": true,
+      "validation_required": false
+    },
+    {
+      "name": "passive_voice",
+      "description": "Convert passive voice to active for professional authority",
+      "confidence_threshold": 0.85,
+      "auto_apply": true,
+      "validation_required": true
+    },
+    {
+      "name": "vague_openers",
+      "description": "Replace vague sentence openers with specific language",
+      "confidence_threshold": 0.8,
+      "auto_apply": true,
+      "validation_required": true
+    },
+    {
+      "name": "long_sentences",
+      "description": "Split complex sentences for enhanced readability",
+      "confidence_threshold": 0.75,
+      "auto_apply": true,
+      "validation_required": true
+    }
+  ],
+  "dhcs_compliance": {
+    "regulatory_references": [
+      "DHCS BHCIP Round 1 RFA, Section 2.4 - Eligible Facility Types",
+      "DHCS Licensing and Certification Division, Title 22 CCR",
+      "BHCIP Bond Round 1 Program Update, Section 3.2 - Pre-Application Consultation",
+      "DHCS Information Notice 14-019: Trauma-Informed Care Standards",
+      "Behavioral Health Infrastructure Bond Act of 2024 (AB 531)",
+      "Mental Health Services Act, Welfare and Institutions Code Section 5840-5847"
+    ],
+    "compliance_scoring": {
+      "target_score": 9.5,
+      "minimum_acceptable": 8.0,
+      "excellence_threshold": 9.8
+    },
+    "automatic_reference_insertion": true,
+    "regulation_update_tracking": true
+  },
+  "output_enhancements": {
+    "detailed_changelog": {
+      "before_after_examples": true,
+      "confidence_scores": true,
+      "dhcs_references": true,
+      "strategic_impact_analysis": true,
+      "validation_status": true
+    },
+    "compliance_dashboard": {
+      "real_time_metrics": true,
+      "visual_indicators": true,
+      "improvement_recommendations": true,
+      "target_gap_analysis": true
+    },
+    "validation_interface": {
+      "edit_by_edit_review": true,
+      "batch_operations": true,
+      "stakeholder_role_specific": true,
+      "feedback_collection": true
+    },
+    "predictive_insights": {
+      "future_improvement_opportunities": true,
+      "time_savings_estimates": true,
+      "quality_predictions": true,
+      "optimization_recommendations": true
+    },
+    "learning_summary": {
+      "effectiveness_trends": true,
+      "stakeholder_satisfaction": true,
+      "improvement_patterns": true,
+      "next_focus_areas": true
+    }
+  },
+  "quality_assurance": {
+    "edit_verification": true,
+    "regulatory_compliance_check": true,
+    "stakeholder_readability_test": true,
+    "professional_authority_enhancement": true,
+    "technical_accuracy_preservation": true
+  },
+  "deployment_configuration": {
+    "environment": "production_ready",
+    "scaling": "high_volume_processing",
+    "integration_apis": [
+      "google_adk",
+      "stakeholder_validation",
+      "compliance_monitoring"
+    ],
+    "monitoring": {
+      "performance_tracking": true,
+      "error_handling": true,
+      "usage_analytics": true,
+      "compliance_auditing": true
+    }
+  },
+  "maintenance": {
+    "regular_updates": "monthly",
+    "dhcs_regulation_sync": "quarterly",
+    "stakeholder_feedback_review": "bi_weekly",
+    "learning_model_optimization": "continuous",
+    "performance_tuning": "as_needed"
+  }
+}

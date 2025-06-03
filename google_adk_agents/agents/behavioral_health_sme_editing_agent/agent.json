@@ -1,0 +1,89 @@
+{
+  "name": "behavioral_health_sme_editing_agent",
+  "version": "1.0.0",
+  "description": "Edits and optimizes behavioral health real estate development documents, aligning them with California DHCS BHCIP guidelines, enhancing readability, and maintaining industry-standard terminology.",
+  "author": "Wellspring Development Team",
+  "tags": ["behavioral-health", "dhcs", "bhcip", "editing", "sme", "real-estate"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "description": "Full markdown-formatted chapter text for analysis and editing."
+      },
+      "chapter_title": {
+        "type": "string",
+        "description": "Title or identifier of the chapter."
+      },
+      "max_sentence_length": {
+        "type": "integer",
+        "default": 35,
+        "description": "Maximum recommended sentence length in words before suggesting splits."
+      },
+      "focus_areas": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["pillar_replacement", "long_sentences", "passive_voice", "vague_openers", "bhsme_terminology"]
+        },
+        "default": ["pillar_replacement", "long_sentences", "passive_voice", "vague_openers", "bhsme_terminology"],
+        "description": "Specific editing focus areas to apply."
+      }
+    },
+    "required": ["text", "chapter_title"]
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "edited_text": {
+        "type": "string",
+        "description": "The improved and edited markdown-formatted text with all applicable corrections applied."
+      },
+      "changelog": {
+        "type": "string",
+        "description": "Detailed changelog documenting each edit, including rationale and alignment with BHCIP and DHCS standards."
+      },
+      "statistics": {
+        "type": "object",
+        "properties": {
+          "total_pillar_replacements": {"type": "integer"},
+          "long_sentences_count": {"type": "integer"},
+          "passive_voice_instances": {"type": "integer"},
+          "vague_opener_instances": {"type": "integer"},
+          "bhsme_improvements": {"type": "integer"},
+          "total_edits_applied": {"type": "integer"},
+          "readability_score_improvement": {"type": "number"}
+        },
+        "description": "Summary of editing statistics including all improvements made."
+      },
+      "recommendations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Strategic recommendations to further enhance clarity, readability, and DHCS/BHCIP compliance."
+      },
+      "bhsme_compliance_score": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10,
+        "description": "Compliance score (0-10) indicating alignment with DHCS BHCIP standards and terminology."
+      }
+    },
+    "required": ["edited_text", "changelog", "statistics", "recommendations", "bhsme_compliance_score"]
+  },
+  "capabilities": [
+    "architectural_terminology_consistency",
+    "readability_enhancement", 
+    "active_voice_enforcement",
+    "precision_and_clarity",
+    "terminology_standardization",
+    "detailed_changelog_generation",
+    "bhcip_compliance_validation"
+  ],
+  "model_requirements": {
+    "context_window": 32000,
+    "reasoning_capability": "advanced",
+    "domain_knowledge": ["behavioral_health", "real_estate", "california_dhcs", "bhcip"]
+  }
+}
