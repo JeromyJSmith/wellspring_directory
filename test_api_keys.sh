@@ -1,12 +1,12 @@
 #!/bin/zsh
 
 # Store API keys securely as environment variables
-export OPENROUTER_API_KEY='sk-YOUR-OPENAI-KEY-HERE'
-export SERPER_API_KEY='ddc62bfd8f9111bda6bf60cde7c2b43be45001e8'
-export DID_API_KEY='amVyb215anNtaXRoQGdtYWlsLmNvbQ:53bFZNYnVtM6xqe6Y5vD8**'
-export LLAMA_APP_KEY='sk-YOUR-OPENAI-KEY-HERE'
-export EXA_API_KEY='YOUR-UUID-KEY-HERE'
-export PERPLEXITY_API_KEY='pplx-YOUR-PERPLEXITY-KEY-HERE'
+export OPENROUTER_API_KEY='your_openrouter_api_key'
+export SERPER_API_KEY='your_serper_api_key'
+export DID_API_KEY='your_did_api_key'
+export LLAMA_APP_KEY='your_llama_app_key'
+export EXA_API_KEY='your_exa_api_key'
+export PERPLEXITY_API_KEY='your_perplexity_api_key'
 
 echo "🔐 API Key Testing Script"
 echo "======================================"
