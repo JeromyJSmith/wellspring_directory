@@ -1,0 +1,24 @@
+# TTS Audio Generator Requirements
+# Install with: pip install -r tts_requirements.txt
+
+# Core TTS libraries
+edge-tts>=6.1.0          # Free, high-quality Microsoft Edge TTS
+gTTS>=2.3.0              # Google Text-to-Speech (basic, free)
+
+# Premium TTS services (optional, require API keys)
+elevenlabs>=0.2.26       # ElevenLabs (premium, natural voices)
+azure-cognitiveservices-speech>=1.30.0  # Azure Cognitive Services
+google-cloud-texttospeech>=2.14.0       # Google Cloud TTS
+boto3>=1.26.0            # Amazon Polly
+
+# Audio processing
+pydub>=0.25.1            # Audio file manipulation
+requests>=2.31.0         # HTTP requests for API calls
+
+# Async support
+aiohttp>=3.8.0           # Async HTTP requests
+aiofiles>=23.1.0         # Async file operations
+
+# Utility libraries
+pathlib2>=2.3.7         # Path handling (Python < 3.4 compatibility)
+python-dotenv>=1.0.0     # Environment variable management 

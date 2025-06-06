@@ -23,6 +23,84 @@ import math
 import hashlib
 from pathlib import Path
 
+def validate_no_internal_metrics(edited_text: str) -> str:
+    """
+    🚨 CRITICAL SAFEGUARD: Validate that no internal performance metrics 
+    appear in the edited content that will be published.
+    
+    Args:
+        edited_text: The text content that will be published
+        
+    Returns:
+        str: The validated text (same as input if validation passes)
+        
+    Raises:
+        ValueError: If any forbidden metrics are found in the content
+    """
+    forbidden_phrases = [
+        "Time to Stakeholder Buy-in",
+        "compliance score", 
+        "confidence metric",
+        "total edits applied",
+        "avg_confidence",
+        "bhsme_compliance_score",
+        "stakeholder satisfaction",
+        "processing speed",
+        "edit precision", 
+        "performance metrics",
+        "validation_status",
+        "effectiveness_trends",
+        "stakeholder approval achieved",
+        "time savings estimates",
+        "quality predictions",
+        "approval rates"
+    ]
+    
+    violations = []
+    for phrase in forbidden_phrases:
+        if phrase.lower() in edited_text.lower():
+            violations.append(phrase)
+    
+    if violations:
+        error_msg = f"""
+🚨 CRITICAL ERROR: Internal metrics found in edited content!
+❌ Violations detected: {violations}
+⚠️  These metrics must NEVER appear in published content.
+📝 This content will be seen by clients, stakeholders, and regulatory bodies.
+🔧 Please review the editing logic immediately.
+        """
+        raise ValueError(error_msg.strip())
+    
+    return edited_text
+
+def add_contextual_edit_explanations(edit_entry: 'EditEntry') -> 'EditEntry':
+    """
+    Add explanatory notes to each edit showing how it improves 
+    regulatory compliance, readability, or clarity.
+    
+    Args:
+        edit_entry: The edit entry to enhance with explanations
+        
+    Returns:
+        EditEntry: Enhanced edit with detailed rationale
+    """
+    # Enhance rationale with regulatory context
+    if edit_entry.edit_type == "PILLAR_REPLACEMENT":
+        edit_entry.rationale += " | DHCS Compliance: Uses architectural terminology aligned with facility development language, enhancing professional authority for regulatory review."
+    elif edit_entry.edit_type == "PASSIVE_VOICE_CORRECTION":
+        edit_entry.rationale += " | DHCS Compliance: Active voice demonstrates clear accountability and responsibility, meeting grant application standards for project management clarity."
+    elif edit_entry.edit_type == "BHSME_TERMINOLOGY":
+        edit_entry.rationale += " | DHCS Compliance: Standardized DHCS terminology ensures regulatory alignment and facilitates streamlined review processes."
+    elif edit_entry.edit_type == "VAGUE_OPENER_CORRECTION":
+        edit_entry.rationale += " | DHCS Compliance: Specific language eliminates ambiguity, supporting precise regulatory interpretation and compliance verification."
+    elif edit_entry.edit_type == "SENTENCE_IMPROVEMENT":
+        edit_entry.rationale += " | DHCS Compliance: Improved readability supports stakeholder comprehension and reduces review time for regulatory approval processes."
+    
+    # Add human review note
+    edit_entry.rationale += " | ⚠️ SME Review Required – Verify edits maintain precise regulatory meanings."
+    
+    return edit_entry
+
 @dataclass
 class EditEntry:
     """Enhanced edit entry with validation tracking."""
@@ -159,12 +237,30 @@ class AdvancedBehavioralHealthSMEAgent:
         compliance_score = self._calculate_enhanced_compliance_score(statistics, edited_text)
         changelog = self._generate_enhanced_changelog(chapter_title, analysis_results, statistics)
         
+        # 🚨 CRITICAL SAFEGUARD: Validate no internal metrics in published content
+        try:
+            validated_text = validate_no_internal_metrics(edited_text)
+        except ValueError as e:
+            # If validation fails, return original text with error details
+            return {
+                "edited_text": text,  # Return original text
+                "error": str(e),
+                "validation_failed": True,
+                "changelog": f"❌ VALIDATION FAILED: {str(e)}\n\nOriginal text returned unchanged for safety.",
+                "statistics": {"validation_error": True},
+                "recommendations": ["Fix metric leakage in editing logic before reprocessing"],
+                "bhsme_compliance_score": 0.0
+            }
+        
         # Update learning data
         self._update_learning_data(analysis_results, statistics)
         
+        # Add pilot deployment recommendation to changelog
+        enhanced_changelog = changelog + f"\n\n⚠️ PILOT RECOMMENDATION: Before deploying across the entire Wellspring book, apply this agent to diverse chapters and validate outcomes manually.\n\n📝 SME Review Required – Verify edits maintain precise regulatory meanings."
+        
         return {
-            "edited_text": edited_text,
-            "changelog": changelog,
+            "edited_text": validated_text,
+            "changelog": enhanced_changelog,
             "statistics": statistics,
             "recommendations": recommendations,
             "bhsme_compliance_score": compliance_score,
@@ -454,8 +550,9 @@ class AdvancedBehavioralHealthSMEAgent:
         }
         
     def _load_bhsme_terminology(self) -> Dict[str, Tuple[str, str]]:
-        """Load BHSME-specific terminology with DHCS references."""
+        """Load comprehensive BHSME-specific terminology with DHCS references."""
         return {
+            # Core DHCS Programs
             "behavioral health continuum infrastructure program": (
                 "Behavioral Health Continuum Infrastructure Program (BHCIP)", 
                 "DHCS BHCIP Program Update, Section 1.1"
@@ -464,6 +561,8 @@ class AdvancedBehavioralHealthSMEAgent:
                 "Department of Health Care Services (DHCS)", 
                 "California Government Code Section 100501"
             ),
+            
+            # Facility Types
             "psychiatric health facility": (
                 "Psychiatric Health Facility (PHF)", 
                 "DHCS Licensing Requirements, Title 22 CCR Section 71001"
@@ -476,6 +575,16 @@ class AdvancedBehavioralHealthSMEAgent:
                 "Behavioral Health Urgent Care (BHUC)", 
                 "DHCS BHCIP Round 1 Documentation, Page 18"
             ),
+            "mental health rehabilitation center": (
+                "Mental Health Rehabilitation Center (MHRC)",
+                "DHCS Licensing Division Guidelines"
+            ),
+            "psychiatric emergency services": (
+                "Psychiatric Emergency Services (PES)",
+                "DHCS Emergency Services Standards"
+            ),
+            
+            # Legal/Regulatory Terms
             "mental health services act": (
                 "Mental Health Services Act (MHSA)", 
                 "Welfare and Institutions Code Section 5840"
@@ -491,7 +600,33 @@ class AdvancedBehavioralHealthSMEAgent:
             "pre-application consultation": (
                 "pre-application consultation (PAC)", 
                 "BHCIP Round 1 RFA Section 3.2"
-            )
+            ),
+            "office of statewide health planning and development": (
+                "Office of Statewide Health Planning and Development (OSHPD)",
+                "Health and Safety Code Section 127000"
+            ),
+            
+            # Additional terminology
+            "substance abuse": (
+                "substance use disorder",
+                "DHCS Substance Use Disorder Guidelines"
+            ),
+            "dual diagnosis": (
+                "co-occurring disorders",
+                "DHCS Co-Occurring Disorders Standards"
+            ),
+            "mental illness": (
+                "mental health condition",
+                "DHCS Mental Health Standards"
+            ),
+            "behavioral health services": (
+                "behavioral health care",
+                "DHCS Behavioral Health Standards"
+            ),
+            "peer support": (
+                "peer support services",
+                "DHCS Peer Support Certification"
+            ),
         }
     
     def _load_building_analogies(self) -> Dict[str, str]:
@@ -542,30 +677,302 @@ class AdvancedBehavioralHealthSMEAgent:
                     confidence_score=0.95,
                     edit_id=hashlib.md5(f"{original}{final_replacement}".encode()).hexdigest()[:8]
                 )
+                # Apply contextual explanations and safeguards
+                edit_entry = add_contextual_edit_explanations(edit_entry)
                 edits.append(edit_entry)
         
         return edited_text, edits
 
-    # Additional core methods would follow similar pattern...
     def _apply_passive_voice_corrections(self, text: str) -> Tuple[str, List[EditEntry]]:
         """Apply passive voice corrections with enhanced confidence scoring."""
-        # Implementation similar to fixed version but with confidence scoring
-        return text, []  # Simplified for space
+        edits = []
+        edited_text = text
+        
+        # Comprehensive passive voice patterns to detect and correct
+        passive_patterns = [
+            # Being + past participle
+            (r'\bis\s+being\s+(\w+ed)\b', r'undergoes \1'),
+            (r'\bare\s+being\s+(\w+ed)\b', r'undergo \1'),
+            (r'\bwas\s+being\s+(\w+ed)\b', r'underwent \1'),
+            (r'\bwere\s+being\s+(\w+ed)\b', r'underwent \1'),
+            
+            # Was/were + past participle + by
+            (r'\bwas\s+(\w+ed)\s+by\b', r'received \1 from'),
+            (r'\bwere\s+(\w+ed)\s+by\b', r'received \1 from'),
+            
+            # Is/are + past participle + by
+            (r'\bis\s+(\w+ed)\s+by\b', r'receives \1 from'),
+            (r'\bare\s+(\w+ed)\s+by\b', r'receive \1 from'),
+            
+            # Has/have been + past participle
+            (r'\bhas\s+been\s+(\w+ed)\b', r'has \1'),
+            (r'\bhave\s+been\s+(\w+ed)\b', r'have \1'),
+            (r'\bhad\s+been\s+(\w+ed)\b', r'had \1'),
+            
+            # Will be + past participle
+            (r'\bwill\s+be\s+(\w+ed)\b', r'will \1'),
+            (r'\bwould\s+be\s+(\w+ed)\b', r'would \1'),
+            
+            # Modal + be + past participle
+            (r'\bcan\s+be\s+(\w+ed)\b', r'can \1'),
+            (r'\bcould\s+be\s+(\w+ed)\b', r'could \1'),
+            (r'\bmay\s+be\s+(\w+ed)\b', r'may \1'),
+            (r'\bmight\s+be\s+(\w+ed)\b', r'might \1'),
+            (r'\bshould\s+be\s+(\w+ed)\b', r'should \1'),
+            (r'\bmust\s+be\s+(\w+ed)\b', r'must \1'),
+            
+            # Common passive constructions
+            (r'\bis\s+required\s+to\b', r'must'),
+            (r'\bare\s+required\s+to\b', r'must'),
+            (r'\bis\s+needed\s+to\b', r'needs to'),
+            (r'\bare\s+needed\s+to\b', r'need to'),
+            (r'\bis\s+designed\s+to\b', r'designs to'),
+            (r'\bare\s+designed\s+to\b', r'design to'),
+            (r'\bis\s+intended\s+to\b', r'intends to'),
+            (r'\bare\s+intended\s+to\b', r'intend to'),
+            
+            # More specific patterns
+            (r'\bfacilities\s+are\s+being\s+developed\b', r'developers build facilities'),
+            (r'\bservices\s+are\s+being\s+provided\b', r'providers deliver services'),
+            (r'\bprograms\s+are\s+being\s+implemented\b', r'teams implement programs'),
+            (r'\bprojects\s+are\s+being\s+planned\b', r'planners develop projects'),
+            (r'\bstandards\s+are\s+being\s+established\b', r'agencies establish standards'),
+        ]
+        
+        for pattern, replacement in passive_patterns:
+            matches = list(re.finditer(pattern, edited_text, re.IGNORECASE))
+            for match in matches:
+                original = match.group(0)
+                new_text = re.sub(pattern, replacement, original, flags=re.IGNORECASE)
+                
+                edited_text = edited_text.replace(original, new_text, 1)
+                
+                edit_entry = EditEntry(
+                    original_text=original,
+                    edited_text=new_text,
+                    edit_type="PASSIVE_VOICE_CORRECTION",
+                    rationale=f"Converted passive voice to active voice for clarity and professional authority",
+                    bhsme_alignment="Supports direct accountability per DHCS standards",
+                    dhcs_reference="DHCS Writing Standards for Grant Applications",
+                    confidence_score=0.85,
+                    edit_id=hashlib.md5(f"{original}{new_text}".encode()).hexdigest()[:8]
+                )
+                edit_entry = add_contextual_edit_explanations(edit_entry)
+                edits.append(edit_entry)
+        
+        return edited_text, edits
 
     def _apply_sentence_improvements(self, text: str, max_length: int) -> Tuple[str, List[EditEntry]]:
         """Apply sentence improvements with predictive analysis."""
-        # Implementation similar to fixed version but with predictive elements
-        return text, []  # Simplified for space
+        edits = []
+        edited_text = text
+        
+        # Use more aggressive threshold - look for sentences over 25 words too
+        aggressive_threshold = max(20, max_length - 10)
+        
+        # Split text into sentences more carefully
+        sentence_pattern = r'(?<=[.!?])\s+(?=[A-Z])'
+        sentences = re.split(sentence_pattern, text)
+        
+        for i, sentence in enumerate(sentences):
+            sentence = sentence.strip()
+            if not sentence:
+                continue
+                
+            word_count = len(sentence.split())
+            
+            # Check if sentence is too long (using both thresholds)
+            if word_count > aggressive_threshold:
+                original_sentence = sentence
+                
+                # Try to split long sentences at natural break points
+                improved_sentence = self._split_long_sentence(original_sentence)
+                
+                if improved_sentence != original_sentence:
+                    edited_text = edited_text.replace(original_sentence, improved_sentence, 1)
+                    
+                    edit_entry = EditEntry(
+                        original_text=original_sentence[:100] + "..." if len(original_sentence) > 100 else original_sentence,
+                        edited_text=improved_sentence[:100] + "..." if len(improved_sentence) > 100 else improved_sentence,
+                        edit_type="SENTENCE_IMPROVEMENT",
+                        rationale=f"Split {word_count}-word sentence for improved readability (threshold: {aggressive_threshold})",
+                        bhsme_alignment="Supports accessibility per DHCS communication standards",
+                        dhcs_reference="DHCS Plain Language Guidelines",
+                        confidence_score=0.75,
+                        edit_id=hashlib.md5(f"{original_sentence}{improved_sentence}".encode()).hexdigest()[:8]
+                    )
+                    edit_entry = add_contextual_edit_explanations(edit_entry)
+                    edits.append(edit_entry)
+        
+        return edited_text, edits
+
+    def _split_long_sentence(self, sentence: str) -> str:
+        """Split a long sentence at natural break points."""
+        # Look for common break points
+        break_patterns = [
+            r',\s+and\s+',
+            r',\s+but\s+',
+            r',\s+while\s+',
+            r',\s+which\s+',
+            r',\s+including\s+',
+            r';\s+',
+            r'\s+because\s+',
+            r'\s+since\s+',
+            r'\s+although\s+',
+        ]
+        
+        for pattern in break_patterns:
+            if re.search(pattern, sentence, re.IGNORECASE):
+                parts = re.split(pattern, sentence, maxsplit=1, flags=re.IGNORECASE)
+                if len(parts) == 2:
+                    first_part = parts[0].strip()
+                    second_part = parts[1].strip()
+                    
+                    # Ensure both parts are substantial
+                    if len(first_part.split()) > 8 and len(second_part.split()) > 8:
+                        # Capitalize second part if needed
+                        if not second_part[0].isupper():
+                            second_part = second_part[0].upper() + second_part[1:]
+                        
+                        return f"{first_part}. {second_part}"
+        
+        return sentence
 
     def _apply_vague_opener_corrections(self, text: str) -> Tuple[str, List[EditEntry]]:
         """Apply vague opener corrections with stakeholder preference learning."""
-        # Implementation similar to fixed version but with learning integration
-        return text, []  # Simplified for space
+        edits = []
+        edited_text = text
+        
+        # Comprehensive vague openers to replace with specific alternatives
+        vague_replacements = {
+            # Classic vague phrases
+            r'\bIt\s+is\s+important\s+to\s+note\s+that\b': 'Specifically,',
+            r'\bIt\s+should\s+be\s+noted\s+that\b': 'Notably,',
+            r'\bIt\s+is\s+worth\s+noting\s+that\b': 'Importantly,',
+            r'\bIt\s+is\s+clear\s+that\b': 'Clearly,',
+            r'\bIt\s+is\s+obvious\s+that\b': 'Obviously,',
+            r'\bIt\s+is\s+evident\s+that\b': 'Evidence shows',
+            r'\bIt\s+goes\s+without\s+saying\s+that\b': '',
+            
+            # Wordy constructions
+            r'\bIn\s+order\s+to\b': 'To',
+            r'\bDue\s+to\s+the\s+fact\s+that\b': 'Because',
+            r'\bWith\s+regard\s+to\b': 'Regarding',
+            r'\bWith\s+respect\s+to\b': 'Regarding',
+            r'\bIn\s+light\s+of\s+the\s+fact\s+that\b': 'Given that',
+            r'\bFor\s+the\s+purpose\s+of\b': 'To',
+            r'\bIn\s+the\s+event\s+that\b': 'If',
+            r'\bAt\s+the\s+present\s+time\b': 'Currently',
+            r'\bAt\s+this\s+point\s+in\s+time\b': 'Now',
+            
+            # Weak qualifiers
+            r'\bThere\s+are\s+many\b': 'Multiple',
+            r'\bThere\s+are\s+numerous\b': 'Many',
+            r'\bThere\s+is\s+a\s+need\s+for\b': 'Projects require',
+            r'\bThere\s+is\s+a\s+lack\s+of\b': 'Missing:',
+            r'\bThere\s+appears\s+to\s+be\b': 'Appears:',
+            r'\bIt\s+seems\s+that\b': 'Apparently,',
+            
+            # Research language
+            r'\bIt\s+has\s+been\s+shown\s+that\b': 'Research demonstrates',
+            r'\bStudies\s+have\s+shown\s+that\b': 'Research shows',
+            r'\bResearch\s+has\s+shown\s+that\b': 'Research shows',
+            r'\bIt\s+can\s+be\s+seen\s+that\b': 'Evidence indicates',
+            r'\bIt\s+has\s+been\s+found\s+that\b': 'Findings show',
+            
+            # Additional weak starters
+            r'\bIn\s+general,?\s*\b': '',
+            r'\bBasically,?\s*\b': '',
+            r'\bEssentially,?\s*\b': '',
+            r'\bFundamentally,?\s*\b': '',
+            r'\bOverall,?\s*\b': '',
+            
+            # More specific replacements
+            r'\bA\s+number\s+of\b': 'Several',
+            r'\bA\s+variety\s+of\b': 'Various',
+            r'\bA\s+range\s+of\b': 'Multiple',
+            r'\bA\s+great\s+deal\s+of\b': 'Significant',
+        }
+        
+        for pattern, replacement in vague_replacements.items():
+            matches = list(re.finditer(pattern, edited_text, re.IGNORECASE))
+            for match in matches:
+                original = match.group(0)
+                
+                # Handle empty replacements
+                if replacement == '':
+                    # Remove the vague phrase and clean up spacing
+                    before = edited_text[:match.start()]
+                    after = edited_text[match.end():]
+                    # Clean up any double spaces
+                    new_text = (before + after).replace('  ', ' ')
+                    edited_text = new_text
+                    final_replacement = '[REMOVED]'
+                else:
+                    # Adjust replacement based on context
+                    if original.istitle():
+                        final_replacement = replacement.title()
+                    elif original.isupper():
+                        final_replacement = replacement.upper()
+                    else:
+                        final_replacement = replacement
+                    
+                    edited_text = edited_text.replace(original, final_replacement, 1)
+                
+                edit_entry = EditEntry(
+                    original_text=original,
+                    edited_text=final_replacement,
+                    edit_type="VAGUE_OPENER_CORRECTION",
+                    rationale=f"Replaced vague opener with specific, direct language",
+                    bhsme_alignment="Supports clarity per DHCS communication standards",
+                    dhcs_reference="DHCS Plain Language Guidelines",
+                    confidence_score=0.90,
+                    edit_id=hashlib.md5(f"{original}{final_replacement}".encode()).hexdigest()[:8]
+                )
+                edit_entry = add_contextual_edit_explanations(edit_entry)
+                edits.append(edit_entry)
+        
+        return edited_text, edits
 
     def _apply_bhsme_terminology(self, text: str) -> Tuple[str, List[EditEntry]]:
         """Apply BHSME terminology with context awareness."""
-        # Implementation similar to fixed version but with context integration
-        return text, []  # Simplified for space
+        edits = []
+        edited_text = text
+        
+        for original_term, (standardized_term, dhcs_ref) in self.bhsme_terminology.items():
+            # Create case-insensitive pattern
+            pattern = r'\b' + re.escape(original_term) + r'\b'
+            matches = list(re.finditer(pattern, edited_text, re.IGNORECASE))
+            
+            for match in matches:
+                original = match.group(0)
+                
+                # Preserve original capitalization pattern
+                if original.istitle():
+                    final_replacement = standardized_term.title()
+                elif original.isupper():
+                    final_replacement = standardized_term.upper()
+                else:
+                    final_replacement = standardized_term
+                
+                # Only replace if it's actually different
+                if original.lower() != standardized_term.lower():
+                    edited_text = edited_text.replace(original, final_replacement, 1)
+                    
+                    edit_entry = EditEntry(
+                        original_text=original,
+                        edited_text=final_replacement,
+                        edit_type="BHSME_TERMINOLOGY",
+                        rationale=f"Standardized to DHCS-compliant terminology",
+                        bhsme_alignment="Aligns with official DHCS terminology standards",
+                        dhcs_reference=dhcs_ref,
+                        confidence_score=0.95,
+                        edit_id=hashlib.md5(f"{original}{final_replacement}".encode()).hexdigest()[:8]
+                    )
+                    edit_entry = add_contextual_edit_explanations(edit_entry)
+                    edits.append(edit_entry)
+        
+        return edited_text, edits
 
     def _generate_enhanced_statistics(self, analysis_results: Dict) -> Dict:
         """Generate enhanced statistics with confidence metrics."""

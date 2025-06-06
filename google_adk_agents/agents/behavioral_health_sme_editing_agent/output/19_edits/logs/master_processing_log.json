@@ -1,0 +1,1474 @@
+{
+  "timestamp": "20250603_061200",
+  "total_chapters_processed": 19,
+  "total_changes_applied": 297,
+  "average_compliance_score": 8.059589320071552,
+  "average_confidence": 0.661373607404197,
+  "processed_chapters": [
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH1.md",
+      "enhanced_file": "19_edits/Chapter_CH1_Enhanced.md",
+      "chapter_title": "Chapter CH1",
+      "analysis": {
+        "chapter_title": "Chapter CH1",
+        "total_changes": 27,
+        "compliance_score": 9.644444444444444,
+        "confidence_score": 0.8222222222222222,
+        "word_count_change": -15,
+        "sentence_count_change": 15,
+        "original_word_count": 1878,
+        "processed_word_count": 1863,
+        "readability_improvement": "High",
+        "change_breakdown": {
+          "pillar_replacements": 2,
+          "passive_voice_corrections": 9,
+          "sentence_improvements": 13,
+          "bhsme_terminology": 5,
+          "vague_opener_corrections": 1
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 13 highest-confidence changes",
+          "aggressive_approach": "Apply additional 9 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 9 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Low",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Medium",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH2.md",
+      "enhanced_file": "19_edits/Chapter_CH2_Enhanced.md",
+      "chapter_title": "Chapter CH2",
+      "analysis": {
+        "chapter_title": "Chapter CH2",
+        "total_changes": 42,
+        "compliance_score": 9.557142857142857,
+        "confidence_score": 0.7785714285714287,
+        "word_count_change": -36,
+        "sentence_count_change": 33,
+        "original_word_count": 4394,
+        "processed_word_count": 4358,
+        "readability_improvement": "High",
+        "change_breakdown": {
+          "pillar_replacements": 4,
+          "passive_voice_corrections": 14,
+          "sentence_improvements": 21,
+          "bhsme_terminology": 8,
+          "vague_opener_corrections": 2
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 21 highest-confidence changes",
+          "aggressive_approach": "Apply additional 14 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 14 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Medium",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Medium",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH3.md",
+      "enhanced_file": "19_edits/Chapter_CH3_Enhanced.md",
+      "chapter_title": "Chapter CH3",
+      "analysis": {
+        "chapter_title": "Chapter CH3",
+        "total_changes": 40,
+        "compliance_score": 9.5475,
+        "confidence_score": 0.7737499999999999,
+        "word_count_change": -37,
+        "sentence_count_change": 33,
+        "original_word_count": 5275,
+        "processed_word_count": 5238,
+        "readability_improvement": "High",
+        "change_breakdown": {
+          "pillar_replacements": 4,
+          "passive_voice_corrections": 13,
+          "sentence_improvements": 20,
+          "bhsme_terminology": 8,
+          "vague_opener_corrections": 2
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 20 highest-confidence changes",
+          "aggressive_approach": "Apply additional 13 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 13 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Medium",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Medium",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH4.md",
+      "enhanced_file": "19_edits/Chapter_CH4_Enhanced.md",
+      "chapter_title": "Chapter CH4",
+      "analysis": {
+        "chapter_title": "Chapter CH4",
+        "total_changes": 8,
+        "compliance_score": 9.575,
+        "confidence_score": 0.7875,
+        "word_count_change": -6,
+        "sentence_count_change": 6,
+        "original_word_count": 1462,
+        "processed_word_count": 1456,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 2,
+          "sentence_improvements": 4,
+          "bhsme_terminology": 1,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 4 highest-confidence changes",
+          "aggressive_approach": "Apply additional 2 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH5.md",
+      "enhanced_file": "19_edits/Chapter_CH5_Enhanced.md",
+      "chapter_title": "Chapter CH5",
+      "analysis": {
+        "chapter_title": "Chapter CH5",
+        "total_changes": 6,
+        "compliance_score": 9.566666666666666,
+        "confidence_score": 0.7833333333333333,
+        "word_count_change": -4,
+        "sentence_count_change": 5,
+        "original_word_count": 909,
+        "processed_word_count": 905,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 2,
+          "sentence_improvements": 3,
+          "bhsme_terminology": 1,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 3 highest-confidence changes",
+          "aggressive_approach": "Apply additional 2 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH6.md",
+      "enhanced_file": "19_edits/Chapter_CH6_Enhanced.md",
+      "chapter_title": "Chapter CH6",
+      "analysis": {
+        "chapter_title": "Chapter CH6",
+        "total_changes": 15,
+        "compliance_score": 9.526666666666667,
+        "confidence_score": 0.7633333333333333,
+        "word_count_change": -15,
+        "sentence_count_change": 13,
+        "original_word_count": 1816,
+        "processed_word_count": 1801,
+        "readability_improvement": "Moderate",
+        "change_breakdown": {
+          "pillar_replacements": 1,
+          "passive_voice_corrections": 5,
+          "sentence_improvements": 7,
+          "bhsme_terminology": 3,
+          "vague_opener_corrections": 1
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 7 highest-confidence changes",
+          "aggressive_approach": "Apply additional 5 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 5 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH7.md",
+      "enhanced_file": "19_edits/Chapter_CH7_Enhanced.md",
+      "chapter_title": "Chapter CH7",
+      "analysis": {
+        "chapter_title": "Chapter CH7",
+        "total_changes": 27,
+        "compliance_score": 9.618518518518519,
+        "confidence_score": 0.8092592592592593,
+        "word_count_change": -13,
+        "sentence_count_change": 18,
+        "original_word_count": 2669,
+        "processed_word_count": 2656,
+        "readability_improvement": "High",
+        "change_breakdown": {
+          "pillar_replacements": 2,
+          "passive_voice_corrections": 9,
+          "sentence_improvements": 13,
+          "bhsme_terminology": 5,
+          "vague_opener_corrections": 1
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 13 highest-confidence changes",
+          "aggressive_approach": "Apply additional 9 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 9 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Low",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Medium",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH8.md",
+      "enhanced_file": "19_edits/Chapter_CH8_Enhanced.md",
+      "chapter_title": "Chapter CH8",
+      "analysis": {
+        "chapter_title": "Chapter CH8",
+        "total_changes": 17,
+        "compliance_score": 9.570588235294117,
+        "confidence_score": 0.7852941176470588,
+        "word_count_change": -15,
+        "sentence_count_change": 12,
+        "original_word_count": 1633,
+        "processed_word_count": 1618,
+        "readability_improvement": "Moderate",
+        "change_breakdown": {
+          "pillar_replacements": 1,
+          "passive_voice_corrections": 5,
+          "sentence_improvements": 8,
+          "bhsme_terminology": 3,
+          "vague_opener_corrections": 1
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 8 highest-confidence changes",
+          "aggressive_approach": "Apply additional 5 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 5 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH9.md",
+      "enhanced_file": "19_edits/Chapter_CH9_Enhanced.md",
+      "chapter_title": "Chapter CH9",
+      "analysis": {
+        "chapter_title": "Chapter CH9",
+        "total_changes": 26,
+        "compliance_score": 9.569230769230769,
+        "confidence_score": 0.7846153846153846,
+        "word_count_change": -19,
+        "sentence_count_change": 19,
+        "original_word_count": 5189,
+        "processed_word_count": 5170,
+        "readability_improvement": "High",
+        "change_breakdown": {
+          "pillar_replacements": 2,
+          "passive_voice_corrections": 8,
+          "sentence_improvements": 13,
+          "bhsme_terminology": 5,
+          "vague_opener_corrections": 1
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 13 highest-confidence changes",
+          "aggressive_approach": "Apply additional 8 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 8 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Medium",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH10.md",
+      "enhanced_file": "19_edits/Chapter_CH10_Enhanced.md",
+      "chapter_title": "Chapter CH10",
+      "analysis": {
+        "chapter_title": "Chapter CH10",
+        "total_changes": 7,
+        "compliance_score": 9.5,
+        "confidence_score": 0.75,
+        "word_count_change": -6,
+        "sentence_count_change": 7,
+        "original_word_count": 1115,
+        "processed_word_count": 1109,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 2,
+          "sentence_improvements": 3,
+          "bhsme_terminology": 1,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 3 highest-confidence changes",
+          "aggressive_approach": "Apply additional 2 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Medium",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH11.md",
+      "enhanced_file": "19_edits/Chapter_CH11_Enhanced.md",
+      "chapter_title": "Chapter CH11",
+      "analysis": {
+        "chapter_title": "Chapter CH11",
+        "total_changes": 30,
+        "compliance_score": 9.586666666666666,
+        "confidence_score": 0.7933333333333333,
+        "word_count_change": -21,
+        "sentence_count_change": 22,
+        "original_word_count": 4863,
+        "processed_word_count": 4842,
+        "readability_improvement": "High",
+        "change_breakdown": {
+          "pillar_replacements": 3,
+          "passive_voice_corrections": 10,
+          "sentence_improvements": 15,
+          "bhsme_terminology": 6,
+          "vague_opener_corrections": 2
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 15 highest-confidence changes",
+          "aggressive_approach": "Apply additional 10 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 10 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Medium",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Medium",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH12.md",
+      "enhanced_file": "19_edits/Chapter_CH12_Enhanced.md",
+      "chapter_title": "Chapter CH12",
+      "analysis": {
+        "chapter_title": "Chapter CH12",
+        "total_changes": 0,
+        "compliance_score": 0.0,
+        "confidence_score": 0.0,
+        "word_count_change": 0,
+        "sentence_count_change": 0,
+        "original_word_count": 2745,
+        "processed_word_count": 2745,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 0,
+          "sentence_improvements": 0,
+          "bhsme_terminology": 0,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Balanced Improvements",
+        "regulatory_impact": "Needs Review - Significant compliance attention required",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 0 highest-confidence changes",
+          "aggressive_approach": "Apply additional 0 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 0 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "High",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Medium",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH13.md",
+      "enhanced_file": "19_edits/Chapter_CH13_Enhanced.md",
+      "chapter_title": "Chapter CH13",
+      "analysis": {
+        "chapter_title": "Chapter CH13",
+        "total_changes": 23,
+        "compliance_score": 9.517391304347825,
+        "confidence_score": 0.758695652173913,
+        "word_count_change": -21,
+        "sentence_count_change": 21,
+        "original_word_count": 3060,
+        "processed_word_count": 3039,
+        "readability_improvement": "High",
+        "change_breakdown": {
+          "pillar_replacements": 2,
+          "passive_voice_corrections": 7,
+          "sentence_improvements": 11,
+          "bhsme_terminology": 4,
+          "vague_opener_corrections": 1
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 11 highest-confidence changes",
+          "aggressive_approach": "Apply additional 7 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 7 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Medium",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH14.md",
+      "enhanced_file": "19_edits/Chapter_CH14_Enhanced.md",
+      "chapter_title": "Chapter CH14",
+      "analysis": {
+        "chapter_title": "Chapter CH14",
+        "total_changes": 0,
+        "compliance_score": 0.0,
+        "confidence_score": 0.0,
+        "word_count_change": 0,
+        "sentence_count_change": 0,
+        "original_word_count": 1989,
+        "processed_word_count": 1989,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 0,
+          "sentence_improvements": 0,
+          "bhsme_terminology": 0,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Balanced Improvements",
+        "regulatory_impact": "Needs Review - Significant compliance attention required",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 0 highest-confidence changes",
+          "aggressive_approach": "Apply additional 0 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 0 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "High",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Medium",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH15.md",
+      "enhanced_file": "19_edits/Chapter_CH15_Enhanced.md",
+      "chapter_title": "Chapter CH15",
+      "analysis": {
+        "chapter_title": "Chapter CH15",
+        "total_changes": 0,
+        "compliance_score": 0.0,
+        "confidence_score": 0.0,
+        "word_count_change": 0,
+        "sentence_count_change": 0,
+        "original_word_count": 823,
+        "processed_word_count": 823,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 0,
+          "sentence_improvements": 0,
+          "bhsme_terminology": 0,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Balanced Improvements",
+        "regulatory_impact": "Needs Review - Significant compliance attention required",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 0 highest-confidence changes",
+          "aggressive_approach": "Apply additional 0 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 0 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "High",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Medium",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH16.md",
+      "enhanced_file": "19_edits/Chapter_CH16_Enhanced.md",
+      "chapter_title": "Chapter CH16",
+      "analysis": {
+        "chapter_title": "Chapter CH16",
+        "total_changes": 7,
+        "compliance_score": 9.585714285714285,
+        "confidence_score": 0.7928571428571428,
+        "word_count_change": -7,
+        "sentence_count_change": 4,
+        "original_word_count": 1393,
+        "processed_word_count": 1386,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 2,
+          "sentence_improvements": 3,
+          "bhsme_terminology": 1,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 3 highest-confidence changes",
+          "aggressive_approach": "Apply additional 2 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH17.md",
+      "enhanced_file": "19_edits/Chapter_CH17_Enhanced.md",
+      "chapter_title": "Chapter CH17",
+      "analysis": {
+        "chapter_title": "Chapter CH17",
+        "total_changes": 9,
+        "compliance_score": 9.566666666666666,
+        "confidence_score": 0.7833333333333333,
+        "word_count_change": -7,
+        "sentence_count_change": 7,
+        "original_word_count": 887,
+        "processed_word_count": 880,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 3,
+          "sentence_improvements": 4,
+          "bhsme_terminology": 1,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 4 highest-confidence changes",
+          "aggressive_approach": "Apply additional 3 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 3 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH18.md",
+      "enhanced_file": "19_edits/Chapter_CH18_Enhanced.md",
+      "chapter_title": "Chapter CH18",
+      "analysis": {
+        "chapter_title": "Chapter CH18",
+        "total_changes": 8,
+        "compliance_score": 9.5,
+        "confidence_score": 0.75,
+        "word_count_change": -7,
+        "sentence_count_change": 8,
+        "original_word_count": 1459,
+        "processed_word_count": 1452,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 2,
+          "sentence_improvements": 4,
+          "bhsme_terminology": 1,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 4 highest-confidence changes",
+          "aggressive_approach": "Apply additional 2 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Medium",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Medium",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    },
+    {
+      "original_file": "input_chapters/New Wellspring-20250503-CH19.md",
+      "enhanced_file": "19_edits/Chapter_CH19_Enhanced.md",
+      "chapter_title": "Chapter CH19",
+      "analysis": {
+        "chapter_title": "Chapter CH19",
+        "total_changes": 5,
+        "compliance_score": 9.7,
+        "confidence_score": 0.85,
+        "word_count_change": -1,
+        "sentence_count_change": 2,
+        "original_word_count": 589,
+        "processed_word_count": 588,
+        "readability_improvement": "Low",
+        "change_breakdown": {
+          "pillar_replacements": 0,
+          "passive_voice_corrections": 1,
+          "sentence_improvements": 2,
+          "bhsme_terminology": 1,
+          "vague_opener_corrections": 0
+        },
+        "primary_focus": "Sentence Improvements",
+        "regulatory_impact": "Excellent - Exceeds DHCS standards",
+        "alternatives_considered": {
+          "conservative_approach": "Apply only 2 highest-confidence changes",
+          "aggressive_approach": "Apply additional 1 stylistic improvements",
+          "regulatory_only": "Focus solely on DHCS compliance requirements",
+          "readability_only": "Prioritize sentence structure and clarity",
+          "phased_implementation": "Phase 1: 1 critical changes, Phase 2: Remaining improvements",
+          "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+        },
+        "risk_assessment": {
+          "overall_risk": "Low",
+          "meaning_preservation_risk": "Low",
+          "stakeholder_acceptance_risk": "Low",
+          "regulatory_compliance_risk": "Very Low",
+          "implementation_complexity": "Low",
+          "rollback_feasibility": "High - Original content preserved"
+        }
+      }
+    }
+  ],
+  "detailed_analyses": [
+    {
+      "chapter_title": "Chapter CH1",
+      "total_changes": 27,
+      "compliance_score": 9.644444444444444,
+      "confidence_score": 0.8222222222222222,
+      "word_count_change": -15,
+      "sentence_count_change": 15,
+      "original_word_count": 1878,
+      "processed_word_count": 1863,
+      "readability_improvement": "High",
+      "change_breakdown": {
+        "pillar_replacements": 2,
+        "passive_voice_corrections": 9,
+        "sentence_improvements": 13,
+        "bhsme_terminology": 5,
+        "vague_opener_corrections": 1
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 13 highest-confidence changes",
+        "aggressive_approach": "Apply additional 9 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 9 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Low",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Medium",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH2",
+      "total_changes": 42,
+      "compliance_score": 9.557142857142857,
+      "confidence_score": 0.7785714285714287,
+      "word_count_change": -36,
+      "sentence_count_change": 33,
+      "original_word_count": 4394,
+      "processed_word_count": 4358,
+      "readability_improvement": "High",
+      "change_breakdown": {
+        "pillar_replacements": 4,
+        "passive_voice_corrections": 14,
+        "sentence_improvements": 21,
+        "bhsme_terminology": 8,
+        "vague_opener_corrections": 2
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 21 highest-confidence changes",
+        "aggressive_approach": "Apply additional 14 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 14 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Medium",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Medium",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH3",
+      "total_changes": 40,
+      "compliance_score": 9.5475,
+      "confidence_score": 0.7737499999999999,
+      "word_count_change": -37,
+      "sentence_count_change": 33,
+      "original_word_count": 5275,
+      "processed_word_count": 5238,
+      "readability_improvement": "High",
+      "change_breakdown": {
+        "pillar_replacements": 4,
+        "passive_voice_corrections": 13,
+        "sentence_improvements": 20,
+        "bhsme_terminology": 8,
+        "vague_opener_corrections": 2
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 20 highest-confidence changes",
+        "aggressive_approach": "Apply additional 13 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 13 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Medium",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Medium",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH4",
+      "total_changes": 8,
+      "compliance_score": 9.575,
+      "confidence_score": 0.7875,
+      "word_count_change": -6,
+      "sentence_count_change": 6,
+      "original_word_count": 1462,
+      "processed_word_count": 1456,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 2,
+        "sentence_improvements": 4,
+        "bhsme_terminology": 1,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 4 highest-confidence changes",
+        "aggressive_approach": "Apply additional 2 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH5",
+      "total_changes": 6,
+      "compliance_score": 9.566666666666666,
+      "confidence_score": 0.7833333333333333,
+      "word_count_change": -4,
+      "sentence_count_change": 5,
+      "original_word_count": 909,
+      "processed_word_count": 905,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 2,
+        "sentence_improvements": 3,
+        "bhsme_terminology": 1,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 3 highest-confidence changes",
+        "aggressive_approach": "Apply additional 2 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH6",
+      "total_changes": 15,
+      "compliance_score": 9.526666666666667,
+      "confidence_score": 0.7633333333333333,
+      "word_count_change": -15,
+      "sentence_count_change": 13,
+      "original_word_count": 1816,
+      "processed_word_count": 1801,
+      "readability_improvement": "Moderate",
+      "change_breakdown": {
+        "pillar_replacements": 1,
+        "passive_voice_corrections": 5,
+        "sentence_improvements": 7,
+        "bhsme_terminology": 3,
+        "vague_opener_corrections": 1
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 7 highest-confidence changes",
+        "aggressive_approach": "Apply additional 5 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 5 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH7",
+      "total_changes": 27,
+      "compliance_score": 9.618518518518519,
+      "confidence_score": 0.8092592592592593,
+      "word_count_change": -13,
+      "sentence_count_change": 18,
+      "original_word_count": 2669,
+      "processed_word_count": 2656,
+      "readability_improvement": "High",
+      "change_breakdown": {
+        "pillar_replacements": 2,
+        "passive_voice_corrections": 9,
+        "sentence_improvements": 13,
+        "bhsme_terminology": 5,
+        "vague_opener_corrections": 1
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 13 highest-confidence changes",
+        "aggressive_approach": "Apply additional 9 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 9 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Low",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Medium",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH8",
+      "total_changes": 17,
+      "compliance_score": 9.570588235294117,
+      "confidence_score": 0.7852941176470588,
+      "word_count_change": -15,
+      "sentence_count_change": 12,
+      "original_word_count": 1633,
+      "processed_word_count": 1618,
+      "readability_improvement": "Moderate",
+      "change_breakdown": {
+        "pillar_replacements": 1,
+        "passive_voice_corrections": 5,
+        "sentence_improvements": 8,
+        "bhsme_terminology": 3,
+        "vague_opener_corrections": 1
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 8 highest-confidence changes",
+        "aggressive_approach": "Apply additional 5 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 5 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH9",
+      "total_changes": 26,
+      "compliance_score": 9.569230769230769,
+      "confidence_score": 0.7846153846153846,
+      "word_count_change": -19,
+      "sentence_count_change": 19,
+      "original_word_count": 5189,
+      "processed_word_count": 5170,
+      "readability_improvement": "High",
+      "change_breakdown": {
+        "pillar_replacements": 2,
+        "passive_voice_corrections": 8,
+        "sentence_improvements": 13,
+        "bhsme_terminology": 5,
+        "vague_opener_corrections": 1
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 13 highest-confidence changes",
+        "aggressive_approach": "Apply additional 8 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 8 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Medium",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH10",
+      "total_changes": 7,
+      "compliance_score": 9.5,
+      "confidence_score": 0.75,
+      "word_count_change": -6,
+      "sentence_count_change": 7,
+      "original_word_count": 1115,
+      "processed_word_count": 1109,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 2,
+        "sentence_improvements": 3,
+        "bhsme_terminology": 1,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 3 highest-confidence changes",
+        "aggressive_approach": "Apply additional 2 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Medium",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH11",
+      "total_changes": 30,
+      "compliance_score": 9.586666666666666,
+      "confidence_score": 0.7933333333333333,
+      "word_count_change": -21,
+      "sentence_count_change": 22,
+      "original_word_count": 4863,
+      "processed_word_count": 4842,
+      "readability_improvement": "High",
+      "change_breakdown": {
+        "pillar_replacements": 3,
+        "passive_voice_corrections": 10,
+        "sentence_improvements": 15,
+        "bhsme_terminology": 6,
+        "vague_opener_corrections": 2
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 15 highest-confidence changes",
+        "aggressive_approach": "Apply additional 10 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 10 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Medium",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Medium",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH12",
+      "total_changes": 0,
+      "compliance_score": 0.0,
+      "confidence_score": 0.0,
+      "word_count_change": 0,
+      "sentence_count_change": 0,
+      "original_word_count": 2745,
+      "processed_word_count": 2745,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 0,
+        "sentence_improvements": 0,
+        "bhsme_terminology": 0,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Balanced Improvements",
+      "regulatory_impact": "Needs Review - Significant compliance attention required",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 0 highest-confidence changes",
+        "aggressive_approach": "Apply additional 0 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 0 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "High",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Medium",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH13",
+      "total_changes": 23,
+      "compliance_score": 9.517391304347825,
+      "confidence_score": 0.758695652173913,
+      "word_count_change": -21,
+      "sentence_count_change": 21,
+      "original_word_count": 3060,
+      "processed_word_count": 3039,
+      "readability_improvement": "High",
+      "change_breakdown": {
+        "pillar_replacements": 2,
+        "passive_voice_corrections": 7,
+        "sentence_improvements": 11,
+        "bhsme_terminology": 4,
+        "vague_opener_corrections": 1
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 11 highest-confidence changes",
+        "aggressive_approach": "Apply additional 7 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 7 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Medium",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH14",
+      "total_changes": 0,
+      "compliance_score": 0.0,
+      "confidence_score": 0.0,
+      "word_count_change": 0,
+      "sentence_count_change": 0,
+      "original_word_count": 1989,
+      "processed_word_count": 1989,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 0,
+        "sentence_improvements": 0,
+        "bhsme_terminology": 0,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Balanced Improvements",
+      "regulatory_impact": "Needs Review - Significant compliance attention required",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 0 highest-confidence changes",
+        "aggressive_approach": "Apply additional 0 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 0 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "High",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Medium",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH15",
+      "total_changes": 0,
+      "compliance_score": 0.0,
+      "confidence_score": 0.0,
+      "word_count_change": 0,
+      "sentence_count_change": 0,
+      "original_word_count": 823,
+      "processed_word_count": 823,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 0,
+        "sentence_improvements": 0,
+        "bhsme_terminology": 0,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Balanced Improvements",
+      "regulatory_impact": "Needs Review - Significant compliance attention required",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 0 highest-confidence changes",
+        "aggressive_approach": "Apply additional 0 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 0 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "High",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Medium",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH16",
+      "total_changes": 7,
+      "compliance_score": 9.585714285714285,
+      "confidence_score": 0.7928571428571428,
+      "word_count_change": -7,
+      "sentence_count_change": 4,
+      "original_word_count": 1393,
+      "processed_word_count": 1386,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 2,
+        "sentence_improvements": 3,
+        "bhsme_terminology": 1,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 3 highest-confidence changes",
+        "aggressive_approach": "Apply additional 2 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH17",
+      "total_changes": 9,
+      "compliance_score": 9.566666666666666,
+      "confidence_score": 0.7833333333333333,
+      "word_count_change": -7,
+      "sentence_count_change": 7,
+      "original_word_count": 887,
+      "processed_word_count": 880,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 3,
+        "sentence_improvements": 4,
+        "bhsme_terminology": 1,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 4 highest-confidence changes",
+        "aggressive_approach": "Apply additional 3 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 3 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH18",
+      "total_changes": 8,
+      "compliance_score": 9.5,
+      "confidence_score": 0.75,
+      "word_count_change": -7,
+      "sentence_count_change": 8,
+      "original_word_count": 1459,
+      "processed_word_count": 1452,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 2,
+        "sentence_improvements": 4,
+        "bhsme_terminology": 1,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 4 highest-confidence changes",
+        "aggressive_approach": "Apply additional 2 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 2 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Medium",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Medium",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    },
+    {
+      "chapter_title": "Chapter CH19",
+      "total_changes": 5,
+      "compliance_score": 9.7,
+      "confidence_score": 0.85,
+      "word_count_change": -1,
+      "sentence_count_change": 2,
+      "original_word_count": 589,
+      "processed_word_count": 588,
+      "readability_improvement": "Low",
+      "change_breakdown": {
+        "pillar_replacements": 0,
+        "passive_voice_corrections": 1,
+        "sentence_improvements": 2,
+        "bhsme_terminology": 1,
+        "vague_opener_corrections": 0
+      },
+      "primary_focus": "Sentence Improvements",
+      "regulatory_impact": "Excellent - Exceeds DHCS standards",
+      "alternatives_considered": {
+        "conservative_approach": "Apply only 2 highest-confidence changes",
+        "aggressive_approach": "Apply additional 1 stylistic improvements",
+        "regulatory_only": "Focus solely on DHCS compliance requirements",
+        "readability_only": "Prioritize sentence structure and clarity",
+        "phased_implementation": "Phase 1: 1 critical changes, Phase 2: Remaining improvements",
+        "stakeholder_review": "Apply top 80% confidence changes, flag remainder for manual review"
+      },
+      "risk_assessment": {
+        "overall_risk": "Low",
+        "meaning_preservation_risk": "Low",
+        "stakeholder_acceptance_risk": "Low",
+        "regulatory_compliance_risk": "Very Low",
+        "implementation_complexity": "Low",
+        "rollback_feasibility": "High - Original content preserved"
+      }
+    }
+  ]
+}

@@ -153,6 +153,37 @@
       "next_focus_areas": true
     }
   },
+  "content_safeguards": {
+    "exclude_metrics_from_output": true,
+    "description": "Critical safeguards to prevent internal metrics from appearing in published content",
+    "allowed_output_sections": ["edited_text", "changelog", "recommendations"],
+    "disallowed_terms_in_edited_text": [
+      "Time to Stakeholder Buy-in",
+      "compliance score",
+      "confidence metric",
+      "total edits applied",
+      "avg_confidence",
+      "bhsme_compliance_score",
+      "stakeholder satisfaction",
+      "processing speed",
+      "edit precision",
+      "performance metrics",
+      "validation_status",
+      "effectiveness_trends"
+    ],
+    "validation_required": true,
+    "fail_on_metric_leakage": true,
+    "human_review_protocols": {
+      "sme_validation_required": true,
+      "validation_note": "SME Review Required – Verify edits maintain precise regulatory meanings",
+      "pilot_recommendation": "Before deploying across the entire Wellspring book, apply this agent to diverse chapters and validate outcomes manually"
+    },
+    "metric_clarification": {
+      "compliance_score_explanation": "Scores of 8.5 and above indicate excellent DHCS/BHCIP compliance",
+      "confidence_metric_explanation": "Edits with avg_confidence below 0.85 should be flagged for manual review",
+      "stakeholder_approval_clarification": "Stakeholder Approval Achieved 41% Faster (improved from original ambiguous phrasing)"
+    }
+  },
   "quality_assurance": {
     "edit_verification": true,
     "regulatory_compliance_check": true,

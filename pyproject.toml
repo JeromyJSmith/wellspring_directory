@@ -66,9 +66,23 @@ research = [
     "selenium>=4.8.0",
 ]
 
+# Text-to-speech and audio generation
+tts = [
+    "edge-tts>=6.1.0",          # Free, high-quality Microsoft Edge TTS
+    "gTTS>=2.3.0",              # Google Text-to-Speech (basic, free)
+    "openai>=1.0.0",            # OpenAI TTS with custom voice instructions
+    "elevenlabs>=0.2.26",       # ElevenLabs (premium, natural voices)
+    "azure-cognitiveservices-speech>=1.30.0",  # Azure Cognitive Services
+    "google-cloud-texttospeech>=2.14.0",       # Google Cloud TTS
+    "boto3>=1.26.0",            # Amazon Polly
+    "pydub>=0.25.1",            # Audio file manipulation
+    "aiohttp>=3.8.0",           # Async HTTP requests
+    "aiofiles>=23.1.0",         # Async file operations
+]
+
 # Full installation with all features
 full = [
-    "wellspring-book-production[dev,ai,research]"
+    "wellspring-book-production[dev,ai,research,tts]"
 ]
 
 [project.urls]

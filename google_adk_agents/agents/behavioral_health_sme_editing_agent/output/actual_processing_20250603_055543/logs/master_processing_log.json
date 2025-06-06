@@ -1,0 +1,542 @@
+{
+  "timestamp": "20250603_055543",
+  "total_chapters": 38,
+  "total_changes": 594,
+  "chapters": {
+    "Chapter CH1 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH1 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH1 copy_PROCESSED.md",
+      "changes_made": 27,
+      "compliance_score": 9.644444444444444,
+      "confidence": 0.8222222222222222,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 27 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH1": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH1.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH1_PROCESSED.md",
+      "changes_made": 27,
+      "compliance_score": 9.644444444444444,
+      "confidence": 0.8222222222222222,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 27 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH10 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH10 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH10 copy_PROCESSED.md",
+      "changes_made": 7,
+      "compliance_score": 9.5,
+      "confidence": 0.75,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 7 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH10": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH10.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH10_PROCESSED.md",
+      "changes_made": 7,
+      "compliance_score": 9.5,
+      "confidence": 0.75,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 7 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH11 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH11 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH11 copy_PROCESSED.md",
+      "changes_made": 30,
+      "compliance_score": 9.586666666666666,
+      "confidence": 0.7933333333333333,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 30 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH11": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH11.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH11_PROCESSED.md",
+      "changes_made": 30,
+      "compliance_score": 9.586666666666666,
+      "confidence": 0.7933333333333333,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 30 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH12 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH12 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH12 copy_PROCESSED.md",
+      "changes_made": 0,
+      "compliance_score": 0.0,
+      "confidence": 0.0,
+      "edits": []
+    },
+    "Chapter CH12": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH12.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH12_PROCESSED.md",
+      "changes_made": 0,
+      "compliance_score": 0.0,
+      "confidence": 0.0,
+      "edits": []
+    },
+    "Chapter CH13 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH13 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH13 copy_PROCESSED.md",
+      "changes_made": 23,
+      "compliance_score": 9.517391304347825,
+      "confidence": 0.758695652173913,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 23 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH13": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH13.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH13_PROCESSED.md",
+      "changes_made": 23,
+      "compliance_score": 9.517391304347825,
+      "confidence": 0.758695652173913,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 23 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH14 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH14 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH14 copy_PROCESSED.md",
+      "changes_made": 0,
+      "compliance_score": 0.0,
+      "confidence": 0.0,
+      "edits": []
+    },
+    "Chapter CH14": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH14.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH14_PROCESSED.md",
+      "changes_made": 0,
+      "compliance_score": 0.0,
+      "confidence": 0.0,
+      "edits": []
+    },
+    "Chapter CH15 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH15 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH15 copy_PROCESSED.md",
+      "changes_made": 0,
+      "compliance_score": 0.0,
+      "confidence": 0.0,
+      "edits": []
+    },
+    "Chapter CH15": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH15.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH15_PROCESSED.md",
+      "changes_made": 0,
+      "compliance_score": 0.0,
+      "confidence": 0.0,
+      "edits": []
+    },
+    "Chapter CH16 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH16 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH16 copy_PROCESSED.md",
+      "changes_made": 7,
+      "compliance_score": 9.585714285714285,
+      "confidence": 0.7928571428571428,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 7 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH16": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH16.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH16_PROCESSED.md",
+      "changes_made": 7,
+      "compliance_score": 9.585714285714285,
+      "confidence": 0.7928571428571428,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 7 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH17 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH17 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH17 copy_PROCESSED.md",
+      "changes_made": 9,
+      "compliance_score": 9.566666666666666,
+      "confidence": 0.7833333333333333,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 9 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH17": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH17.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH17_PROCESSED.md",
+      "changes_made": 9,
+      "compliance_score": 9.566666666666666,
+      "confidence": 0.7833333333333333,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 9 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH18 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH18 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH18 copy_PROCESSED.md",
+      "changes_made": 8,
+      "compliance_score": 9.5,
+      "confidence": 0.75,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 8 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH18": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH18.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH18_PROCESSED.md",
+      "changes_made": 8,
+      "compliance_score": 9.5,
+      "confidence": 0.75,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 8 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH19 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH19 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH19 copy_PROCESSED.md",
+      "changes_made": 5,
+      "compliance_score": 9.7,
+      "confidence": 0.85,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 5 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH19": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH19.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH19_PROCESSED.md",
+      "changes_made": 5,
+      "compliance_score": 9.7,
+      "confidence": 0.85,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 5 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH2 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH2 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH2 copy_PROCESSED.md",
+      "changes_made": 42,
+      "compliance_score": 9.557142857142857,
+      "confidence": 0.7785714285714287,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 42 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH2": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH2.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH2_PROCESSED.md",
+      "changes_made": 42,
+      "compliance_score": 9.557142857142857,
+      "confidence": 0.7785714285714287,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 42 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH3 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH3 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH3 copy_PROCESSED.md",
+      "changes_made": 40,
+      "compliance_score": 9.5475,
+      "confidence": 0.7737499999999999,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 40 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH3": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH3.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH3_PROCESSED.md",
+      "changes_made": 40,
+      "compliance_score": 9.5475,
+      "confidence": 0.7737499999999999,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 40 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH4 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH4 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH4 copy_PROCESSED.md",
+      "changes_made": 8,
+      "compliance_score": 9.575,
+      "confidence": 0.7875,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 8 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH4": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH4.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH4_PROCESSED.md",
+      "changes_made": 8,
+      "compliance_score": 9.575,
+      "confidence": 0.7875,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 8 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH5 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH5 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH5 copy_PROCESSED.md",
+      "changes_made": 6,
+      "compliance_score": 9.566666666666666,
+      "confidence": 0.7833333333333333,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 6 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH5": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH5.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH5_PROCESSED.md",
+      "changes_made": 6,
+      "compliance_score": 9.566666666666666,
+      "confidence": 0.7833333333333333,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 6 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH6 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH6 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH6 copy_PROCESSED.md",
+      "changes_made": 15,
+      "compliance_score": 9.526666666666667,
+      "confidence": 0.7633333333333333,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 15 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH6": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH6.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH6_PROCESSED.md",
+      "changes_made": 15,
+      "compliance_score": 9.526666666666667,
+      "confidence": 0.7633333333333333,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 15 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH7 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH7 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH7 copy_PROCESSED.md",
+      "changes_made": 27,
+      "compliance_score": 9.618518518518519,
+      "confidence": 0.8092592592592593,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 27 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH7": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH7.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH7_PROCESSED.md",
+      "changes_made": 27,
+      "compliance_score": 9.618518518518519,
+      "confidence": 0.8092592592592593,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 27 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH8 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH8 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH8 copy_PROCESSED.md",
+      "changes_made": 17,
+      "compliance_score": 9.570588235294117,
+      "confidence": 0.7852941176470588,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 17 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH8": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH8.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH8_PROCESSED.md",
+      "changes_made": 17,
+      "compliance_score": 9.570588235294117,
+      "confidence": 0.7852941176470588,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 17 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH9 copy": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH9 copy.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH9 copy_PROCESSED.md",
+      "changes_made": 26,
+      "compliance_score": 9.569230769230769,
+      "confidence": 0.7846153846153846,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 26 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    },
+    "Chapter CH9": {
+      "original_file": "input_chapters/New Wellspring-20250503-CH9.md",
+      "processed_file": "actual_processing_20250603_055543/processed_chapters/New Wellspring-20250503-CH9_PROCESSED.md",
+      "changes_made": 26,
+      "compliance_score": 9.569230769230769,
+      "confidence": 0.7846153846153846,
+      "edits": [
+        {
+          "type": "Multiple Edit Types",
+          "original_text": "Various improvements applied",
+          "edited_text": "Enhanced content with DHCS compliance",
+          "rationale": "Applied 26 improvements including pillar replacement, passive voice correction, sentence improvement, BHSME terminology, and vague opener correction"
+        }
+      ]
+    }
+  },
+  "summary_stats": {
+    "successful_chapters": 38,
+    "failed_chapters": 0,
+    "total_changes_applied": 594,
+    "average_changes_per_chapter": 15.631578947368421,
+    "average_compliance_score": 8.059589320071552
+  }
+}
